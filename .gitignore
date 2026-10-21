@@ -1,0 +1,21 @@
+# KiCad temporary & lock files
+*.kicad_prl
+*-save.kicad_pcb
+*-save.kicad_sch
+*.bak
+*_bak*
+*.lck
+*.000
+*.tmp
+_autosave-*
+*.kicad_pcb-bak
+*.kicad_sch-bak
+
+# OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Virtual environments & local caches
+.venv/
+__pycache__/
