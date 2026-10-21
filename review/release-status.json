@@ -1,0 +1,12 @@
+{
+  "status": "blocked",
+  "open_blockers": [
+    "modem symbol and footprint",
+    "SIM protection and LED wiring",
+    "display reference circuit",
+    "translator enable and voltage domains",
+    "schematic connectivity and PCB parity",
+    "power and procurement qualification",
+    "prototype validation"
+  ]
+}

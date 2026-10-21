@@ -1,29 +1,101 @@
-Quantity,Designators,Value,Footprint,Manufacturer,MPN,Description,LCSC_Part,Layer
-13,"C1, C2, C3, C4, C7, C8, C13, C14, C25, C26, C27, C28, C35",C_0805_2012Metric,C_0805_2012Metric,Generic,C_0805_2012Metric,C_0805_2012Metric C_0805_2012Metric,,Bottom (B.Cu)/Top (F.Cu)
-2,"C11, C12",CP_EIA-7343-31_Kemet-D,CP_EIA-7343-31_Kemet-D,Generic,CP_EIA-7343-31_Kemet-D,CP_EIA-7343-31_Kemet-D CP_EIA-7343-31_Kemet-D,,Top (F.Cu)
-5,"C15, C16, C20, C29, C36",C_0603_1608Metric,C_0603_1608Metric,Generic,C_0603_1608Metric,C_0603_1608Metric C_0603_1608Metric,,Bottom (B.Cu)/Top (F.Cu)
-17,"C5, C6, C9, C10, C17, C18, C19, C21, C22, C23, C24, C30, C31, C32, C33, C34, C37",C_0402_1005Metric,C_0402_1005Metric,Generic,C_0402_1005Metric,C_0402_1005Metric C_0402_1005Metric,,Bottom (B.Cu)/Top (F.Cu)
-1,D1,D_SMA,D_SMA,Generic,D_SMA,D_SMA D_SMA,,Top (F.Cu)
-2,"D2, D8",SOT-23-6,SOT-23-6,Generic,SOT-23-6,SOT-23-6 SOT-23-6,,Top (F.Cu)
-3,"D3, D4, D5",D_SOD-123,D_SOD-123,Generic,D_SOD-123,D_SOD-123 D_SOD-123,,Bottom (B.Cu)
-1,F1,Fuse_1206_3216Metric,Fuse_1206_3216Metric,Generic,Fuse_1206_3216Metric,Fuse_1206_3216Metric Fuse_1206_3216Metric,,Top (F.Cu)
-4,"H1, H2, H3, H4",MountingHole_2.7mm_M2.5_Pad_Via,MountingHole_2.7mm_M2.5_Pad_Via,Generic,MountingHole_2.7mm_M2.5_Pad_Via,MountingHole_2.7mm_M2.5_Pad_Via MountingHole_2.7mm_M2.5_Pad_Via,,Top (F.Cu)
-1,J1,USB_C_Receptacle_GCT_USB4085,USB_C_Receptacle_GCT_USB4085,Generic,USB_C_Receptacle_GCT_USB4085,USB_C_Receptacle_GCT_USB4085 USB_C_Receptacle_GCT_USB4085,,Top (F.Cu)
-1,J2,JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal,JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal,Generic,JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal,JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal,,Top (F.Cu)
-1,J3,nanoSIM_GCT_SIM8060-6-0-14-00,nanoSIM_GCT_SIM8060-6-0-14-00,Generic,nanoSIM_GCT_SIM8060-6-0-14-00,nanoSIM_GCT_SIM8060-6-0-14-00 nanoSIM_GCT_SIM8060-6-0-14-00,,Top (F.Cu)
-2,"J4, J5",U.FL_Hirose_U.FL-R-SMT-1_Vertical,U.FL_Hirose_U.FL-R-SMT-1_Vertical,Generic,U.FL_Hirose_U.FL-R-SMT-1_Vertical,U.FL_Hirose_U.FL-R-SMT-1_Vertical U.FL_Hirose_U.FL-R-SMT-1_Vertical,,Top (F.Cu)
-1,J6,Hirose_FH12-24S-0.5SH_1x24-1MP_P0.50mm_Horizontal,Hirose_FH12-24S-0.5SH_1x24-1MP_P0.50mm_Horizontal,Generic,Hirose_FH12-24S-0.5SH_1x24-1MP_P0.50mm_Horizontal,Hirose_FH12-24S-0.5SH_1x24-1MP_P0.50mm_Horizontal Hirose_FH12-24S-0.5SH_1x24-1MP_P0.50mm_Horizontal,,Bottom (B.Cu)
-1,J7,JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,Generic,JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,,Top (F.Cu)
-1,L1,L_0402_1005Metric,L_0402_1005Metric,Generic,L_0402_1005Metric,L_0402_1005Metric L_0402_1005Metric,,Top (F.Cu)
-1,L2,L_1210_3225Metric,L_1210_3225Metric,Generic,L_1210_3225Metric,L_1210_3225Metric L_1210_3225Metric,,Bottom (B.Cu)
-3,"LED1, LED2, LED3",LED_0603_1608Metric,LED_0603_1608Metric,Generic,LED_0603_1608Metric,LED_0603_1608Metric LED_0603_1608Metric,,Top (F.Cu)
-9,"Q1, Q2, Q3, Q4, Q6, Q7, Q8, Q9, Q10",SOT-23,SOT-23,Generic,SOT-23,SOT-23 SOT-23,,Bottom (B.Cu)/Top (F.Cu)
-1,R10,R_0805_2012Metric,R_0805_2012Metric,Generic,R_0805_2012Metric,R_0805_2012Metric R_0805_2012Metric,,Bottom (B.Cu)
-4,"R13, R14, R15, R16",R_0402_1005Metric,R_0402_1005Metric,Generic,R_0402_1005Metric,R_0402_1005Metric R_0402_1005Metric,,Top (F.Cu)
-18,"R1, R2, R3, R4, R5, R6, R7, R8, R9, R11, R12, R17, R18, R19, R20, R21, R22, R23",R_0603_1608Metric,R_0603_1608Metric,Generic,R_0603_1608Metric,R_0603_1608Metric R_0603_1608Metric,,Bottom (B.Cu)/Top (F.Cu)
-2,"SW1, SW2",SW_Push_SPST_NO_Alps_SKRK,SW_Push_SPST_NO_Alps_SKRK,Generic,SW_Push_SPST_NO_Alps_SKRK,SW_Push_SPST_NO_Alps_SKRK SW_Push_SPST_NO_Alps_SKRK,,Top (F.Cu)
-1,U1,ESP32-S3-WROOM-1,ESP32-S3-WROOM-1,Generic,ESP32-S3-WROOM-1,ESP32-S3-WROOM-1 ESP32-S3-WROOM-1,,Top (F.Cu)
-1,U2,SIMCom_SIM7600G,SIMCom_SIM7600G,SIMCom,SIM7600G-H,Multi-Band LTE-TDD/LTE-FDD/HSPA+ and GNSS LGA Module,C2934336,Top (F.Cu)
-1,U3,SOIC-14_3.9x8.7mm_P1.27mm,SOIC-14_3.9x8.7mm_P1.27mm,Yageo / Uni-Ohm,SOIC-14_3.9x8.7mm_P1.27mm,"Thick Film Resistor SOIC-14_3.9x8.7mm_P1.27mm, 1% tolerance",,Top (F.Cu)
-2,"U4, U5",SOT-23-5,SOT-23-5,Generic,SOT-23-5,SOT-23-5 SOT-23-5,,Bottom (B.Cu)/Top (F.Cu)
-1,U6,Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad,Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad,Generic,Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad,Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad,,Top (F.Cu)
+Reference,Value,Footprint,Layer,Assembly,Procurement status
+C1,4.7uF,Capacitor_SMD:C_0805_2012Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+C2,4.7uF,Capacitor_SMD:C_0805_2012Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+C3,10uF,Capacitor_SMD:C_0805_2012Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+C4,10uF,Capacitor_SMD:C_0805_2012Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+C5,0.1uF,Capacitor_SMD:C_0402_1005Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+C6,100nF,Capacitor_SMD:C_0402_1005Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+C7,10uF,Capacitor_SMD:C_0805_2012Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+C8,10uF,Capacitor_SMD:C_0805_2012Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+C9,0.1uF,Capacitor_SMD:C_0402_1005Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+C10,0.1uF,Capacitor_SMD:C_0402_1005Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+C11,220uF 6.3V ESR35mR,Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+C12,220uF 6.3V ESR35mR,Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+C13,47uF 10V,Capacitor_SMD:C_0805_2012Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+C14,47uF 10V,Capacitor_SMD:C_0805_2012Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+C15,10uF,Capacitor_SMD:C_0603_1608Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+C16,10uF,Capacitor_SMD:C_0603_1608Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+C17,0.1uF,Capacitor_SMD:C_0402_1005Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+C18,0.1uF,Capacitor_SMD:C_0402_1005Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+C19,33pF,Capacitor_SMD:C_0402_1005Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+C20,1uF,Capacitor_SMD:C_0603_1608Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+C21,0.1uF,Capacitor_SMD:C_0402_1005Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+C22,0.1uF,Capacitor_SMD:C_0402_1005Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+C23,100nF,Capacitor_SMD:C_0402_1005Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+C24,100nF,Capacitor_SMD:C_0402_1005Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+C25,4.7uF 25V,Capacitor_SMD:C_0805_2012Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+C26,4.7uF 25V,Capacitor_SMD:C_0805_2012Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+C27,4.7uF 25V,Capacitor_SMD:C_0805_2012Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+C28,4.7uF 25V,Capacitor_SMD:C_0805_2012Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+C29,1uF,Capacitor_SMD:C_0603_1608Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+C30,100nF,Capacitor_SMD:C_0402_1005Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+C31,DNP,Capacitor_SMD:C_0402_1005Metric,F.Cu,DNP,UNQUALIFIED - confirm exact MPN and ratings
+C32,DNP,Capacitor_SMD:C_0402_1005Metric,F.Cu,DNP,UNQUALIFIED - confirm exact MPN and ratings
+C33,47pF,Capacitor_SMD:C_0402_1005Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+C34,100nF,Capacitor_SMD:C_0402_1005Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+C35,1uF 25V,Capacitor_SMD:C_0805_2012Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+C36,1uF 10V,Capacitor_SMD:C_0603_1608Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+C37,0.1uF,Capacitor_SMD:C_0402_1005Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+D1,SMAJ5.0A,Diode_SMD:D_SMA,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+D2,USBLC6-2SC6,Package_TO_SOT_SMD:SOT-23-6,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+D3,MBR0530,Diode_SMD:D_SOD-123,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+D4,MBR0530,Diode_SMD:D_SOD-123,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+D5,MBR0530,Diode_SMD:D_SOD-123,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+D8,USBLC6-2SC6,Package_TO_SOT_SMD:SOT-23-6,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+F1,2.5A PTC,Fuse:Fuse_1206_3216Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+H1,M2.5,MountingHole:MountingHole_2.7mm_M2.5_Pad_Via,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+H2,M2.5,MountingHole:MountingHole_2.7mm_M2.5_Pad_Via,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+H3,M2.5,MountingHole:MountingHole_2.7mm_M2.5_Pad_Via,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+H4,M2.5,MountingHole:MountingHole_2.7mm_M2.5_Pad_Via,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+J1,USB-C,Connector_USB:USB_C_Receptacle_GCT_USB4085,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+J2,BATT (JST-PH),Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+J3,nanoSIM_GCT_SIM8060,Connector_Card:nanoSIM_GCT_SIM8060-6-0-14-00,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+J4,MAIN_ANT_UFL,Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+J5,GNSS_ANT_UFL,Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+J6,FH12-24S-0.5SH,Connector_FFC-FPC:Hirose_FH12-24S-0.5SH_1x24-1MP_P0.50mm_Horizontal,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+J7,Qwiic / STEMMA QT,Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+L1,47nH,Inductor_SMD:L_0402_1005Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+L2,10uH 1.2A,Inductor_SMD:L_1210_3225Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+LED1,USER (Green),LED_SMD:LED_0603_1608Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+LED2,NETLIGHT (Yellow),LED_SMD:LED_0603_1608Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+LED3,CHG (Red),LED_SMD:LED_0603_1608Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+Q1,AO3401A,Package_TO_SOT_SMD:SOT-23,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+Q2,BSS138,Package_TO_SOT_SMD:SOT-23,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+Q3,BSS138,Package_TO_SOT_SMD:SOT-23,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+Q4,BSS138,Package_TO_SOT_SMD:SOT-23,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+Q6,AO3401A,Package_TO_SOT_SMD:SOT-23,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+Q7,BSS138,Package_TO_SOT_SMD:SOT-23,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+Q8,AO3401A,Package_TO_SOT_SMD:SOT-23,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+Q9,BSS138,Package_TO_SOT_SMD:SOT-23,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+Q10,BSS138,Package_TO_SOT_SMD:SOT-23,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+R1,5.1k 1%,Resistor_SMD:R_0603_1608Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+R2,5.1k 1%,Resistor_SMD:R_0603_1608Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+R3,10k,Resistor_SMD:R_0603_1608Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+R4,10k,Resistor_SMD:R_0603_1608Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+R5,1M 1%,Resistor_SMD:R_0603_1608Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+R6,1M 1%,Resistor_SMD:R_0603_1608Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+R7,1k,Resistor_SMD:R_0603_1608Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+R8,100k,Resistor_SMD:R_0603_1608Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+R9,10k,Resistor_SMD:R_0603_1608Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+R10,0.47R 1%,Resistor_SMD:R_0805_2012Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+R11,10k,Resistor_SMD:R_0603_1608Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+R12,1k,Resistor_SMD:R_0603_1608Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+R13,22R,Resistor_SMD:R_0402_1005Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+R14,22R,Resistor_SMD:R_0402_1005Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+R15,22R,Resistor_SMD:R_0402_1005Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+R16,0R,Resistor_SMD:R_0402_1005Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+R17,2.0k 1%,Resistor_SMD:R_0603_1608Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+R18,1k,Resistor_SMD:R_0603_1608Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+R19,100k,Resistor_SMD:R_0603_1608Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+R20,10k,Resistor_SMD:R_0603_1608Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+R21,100k,Resistor_SMD:R_0603_1608Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+R22,4.7k,Resistor_SMD:R_0603_1608Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+R23,4.7k,Resistor_SMD:R_0603_1608Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+SW1,RESET,Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+SW2,BOOT,Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+U1,ESP32-S3-WROOM-1,RF_Module:ESP32-S3-WROOM-1,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+U2,SIMCom_SIM7600G,Low-Power_Cellular_ePaper_Device_ESP32-S3_SIM7600:SIMCom_SIM7600G,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+U3,TXS0104ED,Package_SO:SOIC-14_3.9x8.7mm_P1.27mm,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+U4,MCP73831-2-OT,Package_TO_SOT_SMD:SOT-23-5,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+U5,RT9080-33 / AP2112K,Package_TO_SOT_SMD:SOT-23-5,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+U6,SHT40-AD1B,Sensor_Humidity:Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings

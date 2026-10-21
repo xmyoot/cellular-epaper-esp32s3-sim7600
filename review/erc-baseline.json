@@ -1,0 +1,3892 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-21T07:40:37",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.7",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/005774c9-4188-411d-b0d4-6bd8bcc01829",
+            "violations": [
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label 'CC1'",
+                            "pos": {
+                                "x": 40.0,
+                                "y": 210.0
+                            },
+                            "uuid": "4debb415-72f2-4c17-8f7c-2de228787a21"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label 'CC2'",
+                            "pos": {
+                                "x": 45.0,
+                                "y": 210.0
+                            },
+                            "uuid": "4664f070-c144-49b6-bd58-9e9b9ca3547a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label 'VBUS'",
+                            "pos": {
+                                "x": 50.0,
+                                "y": 192.0
+                            },
+                            "uuid": "4fd2e67c-60ee-4cd8-b7c7-7646a6e9716e"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label 'USB_D+'",
+                            "pos": {
+                                "x": 60.0,
+                                "y": 198.0
+                            },
+                            "uuid": "7c660c17-04a4-4be1-a75a-c207d0d114fb"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label 'USB_D-'",
+                            "pos": {
+                                "x": 60.0,
+                                "y": 202.0
+                            },
+                            "uuid": "4651ea55-13f1-4be0-8b2e-f484d0c5da57"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label 'MCU_EN'",
+                            "pos": {
+                                "x": 65.0,
+                                "y": 115.0
+                            },
+                            "uuid": "6c3f0e47-c5a8-474e-bc81-c3d1bf2b8bcb"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label 'MCU_IO0'",
+                            "pos": {
+                                "x": 65.0,
+                                "y": 135.0
+                            },
+                            "uuid": "bd7f8124-1b9e-48b8-a374-6870277486cc"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label 'VBAT'",
+                            "pos": {
+                                "x": 105.0,
+                                "y": 192.0
+                            },
+                            "uuid": "617d9a1f-722e-4eb0-aa38-06cea16eef08"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label 'BAT_SENSE_EN'",
+                            "pos": {
+                                "x": 105.0,
+                                "y": 245.0
+                            },
+                            "uuid": "8811db21-b95a-4584-8087-d1983780168e"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label 'BAT_ADC'",
+                            "pos": {
+                                "x": 125.0,
+                                "y": 245.0
+                            },
+                            "uuid": "c7771aa1-57e2-4404-a125-24ecaf8ba4aa"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label '+3V3'",
+                            "pos": {
+                                "x": 145.0,
+                                "y": 195.0
+                            },
+                            "uuid": "23d67c04-fd46-4857-8dbe-61b67f8209fd"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label 'I2C_SCL'",
+                            "pos": {
+                                "x": 160.0,
+                                "y": 150.0
+                            },
+                            "uuid": "f4afbbfc-166e-401a-96f3-9ddeb296aabd"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label 'I2C_SDA'",
+                            "pos": {
+                                "x": 160.0,
+                                "y": 155.0
+                            },
+                            "uuid": "77649d74-fe00-4168-a095-de27a8c2a83e"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label 'MCU_RTS'",
+                            "pos": {
+                                "x": 165.0,
+                                "y": 85.0
+                            },
+                            "uuid": "4173f0e5-6fcd-4039-b7e5-34cd7f7e2a9c"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label 'MCU_CTS'",
+                            "pos": {
+                                "x": 165.0,
+                                "y": 90.0
+                            },
+                            "uuid": "5098f699-f8e5-4b15-b709-93ec906e4015"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label 'MODEM_PWR_EN'",
+                            "pos": {
+                                "x": 165.0,
+                                "y": 95.0
+                            },
+                            "uuid": "579d197a-edc6-4662-8943-9463a7c522df"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label 'MODEM_PWRKEY'",
+                            "pos": {
+                                "x": 165.0,
+                                "y": 100.0
+                            },
+                            "uuid": "9f0a9617-c647-4298-8047-08ffd4f48fb6"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label 'MODEM_RESET'",
+                            "pos": {
+                                "x": 165.0,
+                                "y": 105.0
+                            },
+                            "uuid": "cf63dd56-ced0-4e30-bc3c-6161512e6da5"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label 'MODEM_STATUS'",
+                            "pos": {
+                                "x": 165.0,
+                                "y": 110.0
+                            },
+                            "uuid": "d5b71577-0435-4fe8-86c2-295ee5315eed"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label 'MCU_TXD'",
+                            "pos": {
+                                "x": 165.0,
+                                "y": 115.0
+                            },
+                            "uuid": "74e4dc79-05d3-4ee9-ab8d-70d8b7b79341"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label 'MCU_RXD'",
+                            "pos": {
+                                "x": 165.0,
+                                "y": 120.0
+                            },
+                            "uuid": "3a29ca81-41ce-4ccf-ba5f-b05b2e4f08fe"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label 'USER_LED'",
+                            "pos": {
+                                "x": 165.0,
+                                "y": 130.0
+                            },
+                            "uuid": "6f687ceb-2802-454f-9bcf-15bede69b29a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label 'EPD_PWR_EN'",
+                            "pos": {
+                                "x": 165.0,
+                                "y": 175.0
+                            },
+                            "uuid": "8d139068-4922-403a-9ddb-2ba5bf2f899b"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label 'EPD_CS'",
+                            "pos": {
+                                "x": 165.0,
+                                "y": 180.0
+                            },
+                            "uuid": "b9bf86b3-e821-4551-a5e1-b52eaaec9f8b"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label 'EPD_DC'",
+                            "pos": {
+                                "x": 165.0,
+                                "y": 185.0
+                            },
+                            "uuid": "9278ab03-ba27-40d1-8c7a-2d03e0d33e92"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label 'EPD_RST'",
+                            "pos": {
+                                "x": 165.0,
+                                "y": 190.0
+                            },
+                            "uuid": "35cdcd61-c24a-4ef5-a3fe-f44d6998c3f9"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label 'EPD_BUSY'",
+                            "pos": {
+                                "x": 165.0,
+                                "y": 195.0
+                            },
+                            "uuid": "c124853e-efb0-49e7-bd4d-fbbc18797f61"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label 'EPD_SCK'",
+                            "pos": {
+                                "x": 165.0,
+                                "y": 200.0
+                            },
+                            "uuid": "a52fdfc2-4896-47e6-ac96-2fc71d7baa4e"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label 'EPD_MOSI'",
+                            "pos": {
+                                "x": 165.0,
+                                "y": 205.0
+                            },
+                            "uuid": "eb7ce29c-9f67-448d-a5a9-47172462c7b8"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label 'VCC_EPD'",
+                            "pos": {
+                                "x": 180.0,
+                                "y": 205.0
+                            },
+                            "uuid": "37341a5e-61d6-4e2d-b311-33d93257dd12"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label 'VDD_EXT'",
+                            "pos": {
+                                "x": 185.0,
+                                "y": 95.0
+                            },
+                            "uuid": "2b559052-7d2e-40b4-89a9-1e3707ace40f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label 'EPD_GDR'",
+                            "pos": {
+                                "x": 220.0,
+                                "y": 220.0
+                            },
+                            "uuid": "963675b1-5179-4d1f-8c44-3f4a3d2d3ced"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label 'EPD_RESE'",
+                            "pos": {
+                                "x": 220.0,
+                                "y": 225.0
+                            },
+                            "uuid": "21ccee00-27bf-4545-92e5-f87b2e668c9b"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label 'VBAT_MODEM'",
+                            "pos": {
+                                "x": 225.0,
+                                "y": 60.0
+                            },
+                            "uuid": "ace78945-a342-4dde-8da5-072387511a29"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 87 [PWRKEY, Input, Line]",
+                            "pos": {
+                                "x": 229.52,
+                                "y": 69.52
+                            },
+                            "uuid": "bcbb2cb0-0db7-4a4f-afa5-e3d27127d440"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 87 [PWRKEY, Input, Line]",
+                            "pos": {
+                                "x": 229.52,
+                                "y": 69.52
+                            },
+                            "uuid": "bcbb2cb0-0db7-4a4f-afa5-e3d27127d440"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 86 [RESET, Input, Line]",
+                            "pos": {
+                                "x": 232.06,
+                                "y": 69.52
+                            },
+                            "uuid": "6bc0c174-5ebc-4995-9ee9-d30fa43a46f1"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 86 [RESET, Input, Line]",
+                            "pos": {
+                                "x": 232.06,
+                                "y": 69.52
+                            },
+                            "uuid": "6bc0c174-5ebc-4995-9ee9-d30fa43a46f1"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 85 [PIN85, Passive, Line]",
+                            "pos": {
+                                "x": 234.6,
+                                "y": 69.52
+                            },
+                            "uuid": "8dab0e69-9d63-4b00-b9f2-ddf8e5b4987f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 84 [PIN84, Passive, Line]",
+                            "pos": {
+                                "x": 237.14,
+                                "y": 69.52
+                            },
+                            "uuid": "38fec245-d4ad-4f87-83f4-eadb850d26e2"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 1 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 237.14,
+                                "y": 72.06
+                            },
+                            "uuid": "777f7287-7a32-4faa-a604-f192dfa22758"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 1 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 237.14,
+                                "y": 72.06
+                            },
+                            "uuid": "777f7287-7a32-4faa-a604-f192dfa22758"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 2 [PIN2, Passive, Line]",
+                            "pos": {
+                                "x": 237.14,
+                                "y": 74.6
+                            },
+                            "uuid": "368c3831-ff3d-4066-926f-a3df68aa7b83"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 3 [PIN3, Passive, Line]",
+                            "pos": {
+                                "x": 237.14,
+                                "y": 77.14
+                            },
+                            "uuid": "368269e8-22fa-44c6-8790-680094c6073f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 4 [PIN4, Passive, Line]",
+                            "pos": {
+                                "x": 237.14,
+                                "y": 79.68
+                            },
+                            "uuid": "0bea7907-5670-40b6-b831-4a1fda5f3c6b"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 5 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 237.14,
+                                "y": 82.22
+                            },
+                            "uuid": "3ccc013b-a372-4305-936b-48fdc2cba52f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 5 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 237.14,
+                                "y": 82.22
+                            },
+                            "uuid": "3ccc013b-a372-4305-936b-48fdc2cba52f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 6 [PIN6, Passive, Line]",
+                            "pos": {
+                                "x": 237.14,
+                                "y": 84.76
+                            },
+                            "uuid": "731a1913-9ff1-4805-a556-75baeb1ae127"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 7 [PIN7, Passive, Line]",
+                            "pos": {
+                                "x": 237.14,
+                                "y": 87.3
+                            },
+                            "uuid": "c967c3ff-3670-4ae6-bfbb-73c753024ce8"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 8 [VDD_EXT, Power output, Line]",
+                            "pos": {
+                                "x": 237.14,
+                                "y": 89.84
+                            },
+                            "uuid": "ffcfac4a-f385-4d9a-9826-5c8cb565318e"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 9 [PIN9, Passive, Line]",
+                            "pos": {
+                                "x": 237.14,
+                                "y": 92.38
+                            },
+                            "uuid": "7ff4669a-ba92-4b5d-8acb-1ad1bc2bd80d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 10 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 237.14,
+                                "y": 94.92
+                            },
+                            "uuid": "e6a088e3-b5ef-4059-a07a-067974bdeacf"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 10 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 237.14,
+                                "y": 94.92
+                            },
+                            "uuid": "e6a088e3-b5ef-4059-a07a-067974bdeacf"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 11 [TXD, Output, Line]",
+                            "pos": {
+                                "x": 237.14,
+                                "y": 97.46
+                            },
+                            "uuid": "94b2a71e-21a5-430b-af7a-4d7006fb650c"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 12 [RXD, Input, Line]",
+                            "pos": {
+                                "x": 237.14,
+                                "y": 100.0
+                            },
+                            "uuid": "60c56984-fa51-46df-a40b-936d4df9ce55"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 12 [RXD, Input, Line]",
+                            "pos": {
+                                "x": 237.14,
+                                "y": 100.0
+                            },
+                            "uuid": "60c56984-fa51-46df-a40b-936d4df9ce55"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 13 [RTS, Output, Line]",
+                            "pos": {
+                                "x": 237.14,
+                                "y": 102.54
+                            },
+                            "uuid": "ef3d3fab-c7ff-4fd9-9059-0386fb1c7504"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 14 [CTS, Input, Line]",
+                            "pos": {
+                                "x": 237.14,
+                                "y": 105.08
+                            },
+                            "uuid": "8ec1b8bc-16ad-4436-af3c-0e045cc7e375"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 14 [CTS, Input, Line]",
+                            "pos": {
+                                "x": 237.14,
+                                "y": 105.08
+                            },
+                            "uuid": "8ec1b8bc-16ad-4436-af3c-0e045cc7e375"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 15 [STATUS, Output, Line]",
+                            "pos": {
+                                "x": 237.14,
+                                "y": 107.62
+                            },
+                            "uuid": "33f76fd7-f057-4f36-a264-82ebbefd9b41"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 16 [NETLIGHT, Output, Line]",
+                            "pos": {
+                                "x": 237.14,
+                                "y": 110.16
+                            },
+                            "uuid": "9f54d296-cacc-46e4-953d-f4bd74d7d882"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 17 [PIN17, Passive, Line]",
+                            "pos": {
+                                "x": 237.14,
+                                "y": 112.7
+                            },
+                            "uuid": "8c7e9d22-52d6-4239-8acb-86806e2442b0"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 18 [PIN18, Passive, Line]",
+                            "pos": {
+                                "x": 237.14,
+                                "y": 115.24
+                            },
+                            "uuid": "4d2c943d-76ee-4f58-aba4-2cdf748374b7"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 19 [PIN19, Passive, Line]",
+                            "pos": {
+                                "x": 237.14,
+                                "y": 117.78
+                            },
+                            "uuid": "4e1d309f-721c-4433-a4c0-dc8b99da9975"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 20 [PIN20, Passive, Line]",
+                            "pos": {
+                                "x": 237.14,
+                                "y": 120.32
+                            },
+                            "uuid": "15091675-bbea-4d48-b8d0-ce006ac74b3c"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 21 [PIN21, Passive, Line]",
+                            "pos": {
+                                "x": 237.14,
+                                "y": 122.86
+                            },
+                            "uuid": "863be811-778a-4aeb-9f40-ea11afa9f708"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 22 [PIN22, Passive, Line]",
+                            "pos": {
+                                "x": 237.14,
+                                "y": 125.4
+                            },
+                            "uuid": "f8e10874-6cad-4420-a265-6f7aedee5648"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 23 [PIN23, Passive, Line]",
+                            "pos": {
+                                "x": 237.14,
+                                "y": 130.48
+                            },
+                            "uuid": "6bc8efae-5a19-4949-b6b8-275e773e541a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 83 [PIN83, Passive, Line]",
+                            "pos": {
+                                "x": 239.68,
+                                "y": 69.52
+                            },
+                            "uuid": "875c359b-e174-4db2-9cf2-7bb3888855df"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 24 [PIN24, Passive, Line]",
+                            "pos": {
+                                "x": 239.68,
+                                "y": 130.48
+                            },
+                            "uuid": "f844540f-37e5-4bd8-8759-55a8ca3af5c1"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 82 [PIN82, Passive, Line]",
+                            "pos": {
+                                "x": 242.22,
+                                "y": 69.52
+                            },
+                            "uuid": "dcebb930-1e11-46f3-b46d-3088cc05372f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 25 [PIN25, Passive, Line]",
+                            "pos": {
+                                "x": 242.22,
+                                "y": 130.48
+                            },
+                            "uuid": "f53ceec0-55a1-4c19-ab3b-968c595a2f70"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 81 [PIN81, Passive, Line]",
+                            "pos": {
+                                "x": 244.76,
+                                "y": 69.52
+                            },
+                            "uuid": "5346e762-c396-40a1-8519-9981cdea6868"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 26 [PIN26, Passive, Line]",
+                            "pos": {
+                                "x": 244.76,
+                                "y": 130.48
+                            },
+                            "uuid": "a1ca37b5-285c-4e90-bf22-45e8e045e475"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label 'EPD_VGH'",
+                            "pos": {
+                                "x": 245.0,
+                                "y": 210.0
+                            },
+                            "uuid": "79890067-094d-4f12-9814-3d1ed353f7cb"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label 'EPD_VGL'",
+                            "pos": {
+                                "x": 245.0,
+                                "y": 220.0
+                            },
+                            "uuid": "3908db6d-1e58-4a12-8c0d-2d90b7a2a16a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label 'EPD_VSH'",
+                            "pos": {
+                                "x": 245.0,
+                                "y": 230.0
+                            },
+                            "uuid": "8b4a02f3-9f29-479d-b02b-4a484f963b43"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label 'EPD_VSL'",
+                            "pos": {
+                                "x": 245.0,
+                                "y": 240.0
+                            },
+                            "uuid": "0fd96ee2-5f2b-40b9-85b4-790a1ce514c0"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 80 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 247.3,
+                                "y": 69.52
+                            },
+                            "uuid": "386c6094-1e68-40e3-a16b-7fd34e365b38"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 80 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 247.3,
+                                "y": 69.52
+                            },
+                            "uuid": "386c6094-1e68-40e3-a16b-7fd34e365b38"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 27 [PIN27, Passive, Line]",
+                            "pos": {
+                                "x": 247.3,
+                                "y": 130.48
+                            },
+                            "uuid": "eb8598c9-dc1d-4177-83a5-5b0cfd075627"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 79 [PIN79, Passive, Line]",
+                            "pos": {
+                                "x": 249.84,
+                                "y": 69.52
+                            },
+                            "uuid": "b2977500-3b5b-45de-a0c7-f00ef3ee19df"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 28 [PIN28, Passive, Line]",
+                            "pos": {
+                                "x": 249.84,
+                                "y": 130.48
+                            },
+                            "uuid": "687ec8ca-db50-4f60-b76c-eeedb42e7d0a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 78 [PIN78, Passive, Line]",
+                            "pos": {
+                                "x": 252.38,
+                                "y": 69.52
+                            },
+                            "uuid": "5381dd13-0189-455f-ace2-1681ef5896a2"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 29 [PIN29, Passive, Line]",
+                            "pos": {
+                                "x": 252.38,
+                                "y": 130.48
+                            },
+                            "uuid": "4837ef94-68b6-4856-ae4d-3eb8bfc25d47"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 77 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 254.92,
+                                "y": 69.52
+                            },
+                            "uuid": "7842f174-e711-4fa0-89b1-d861b1cbb464"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 77 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 254.92,
+                                "y": 69.52
+                            },
+                            "uuid": "7842f174-e711-4fa0-89b1-d861b1cbb464"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 30 [PIN30, Passive, Line]",
+                            "pos": {
+                                "x": 254.92,
+                                "y": 130.48
+                            },
+                            "uuid": "9709c85e-7b81-407f-88f1-30078a9c6883"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label 'USIM_VDD'",
+                            "pos": {
+                                "x": 255.0,
+                                "y": 170.0
+                            },
+                            "uuid": "d33f9662-0342-4515-bb03-6e19a6926f46"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label 'EPD_VCOM'",
+                            "pos": {
+                                "x": 255.0,
+                                "y": 225.0
+                            },
+                            "uuid": "8ccf59e8-44ec-486f-83f2-86aa6f6ed2e2"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 76 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 257.46,
+                                "y": 69.52
+                            },
+                            "uuid": "1d98e1c0-5e10-4a7c-9912-9f7e917091bb"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 76 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 257.46,
+                                "y": 69.52
+                            },
+                            "uuid": "1d98e1c0-5e10-4a7c-9912-9f7e917091bb"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 31 [PIN31, Passive, Line]",
+                            "pos": {
+                                "x": 257.46,
+                                "y": 130.48
+                            },
+                            "uuid": "3c164ee8-b5d4-40e2-a2a0-08f85c412621"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 75 [GNSS_ANT, Passive, Line]",
+                            "pos": {
+                                "x": 260.0,
+                                "y": 69.52
+                            },
+                            "uuid": "6f3ae51e-8ab5-485f-bf84-fc3358750cc1"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Hidden pin 88 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 260.0,
+                                "y": 100.0
+                            },
+                            "uuid": "650d0ab7-b988-469c-a42f-bb8273affd53"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Hidden pin 88 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 260.0,
+                                "y": 100.0
+                            },
+                            "uuid": "650d0ab7-b988-469c-a42f-bb8273affd53"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 32 [PIN32, Passive, Line]",
+                            "pos": {
+                                "x": 260.0,
+                                "y": 130.48
+                            },
+                            "uuid": "f0125a35-996e-4e27-baab-bfe6ec9fbc43"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label 'USIM_DATA'",
+                            "pos": {
+                                "x": 260.0,
+                                "y": 170.0
+                            },
+                            "uuid": "aa30314b-0429-4463-8925-ee00cb664a03"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 74 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 262.54,
+                                "y": 69.52
+                            },
+                            "uuid": "4339dba6-9e44-40dc-9462-b6c406edda41"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 74 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 262.54,
+                                "y": 69.52
+                            },
+                            "uuid": "4339dba6-9e44-40dc-9462-b6c406edda41"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 33 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 262.54,
+                                "y": 130.48
+                            },
+                            "uuid": "27f30ed9-2690-4d6d-8733-6bc7111b87bf"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 33 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 262.54,
+                                "y": 130.48
+                            },
+                            "uuid": "27f30ed9-2690-4d6d-8733-6bc7111b87bf"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label 'USIM_CLK'",
+                            "pos": {
+                                "x": 265.0,
+                                "y": 170.0
+                            },
+                            "uuid": "ded17810-a01a-4ce5-8d42-bb3e26e1ad4a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 73 [MAIN_ANT, Passive, Line]",
+                            "pos": {
+                                "x": 265.08,
+                                "y": 69.52
+                            },
+                            "uuid": "bdf77e65-4491-4551-9de0-c33a5ae10821"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 34 [USIM_VDD, Power output, Line]",
+                            "pos": {
+                                "x": 265.08,
+                                "y": 130.48
+                            },
+                            "uuid": "2bbcfd85-73aa-495c-81e6-28c6f816567d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 72 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 267.62,
+                                "y": 69.52
+                            },
+                            "uuid": "9b3a28d6-81f1-4a8f-bcb5-0419d72f7ed1"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 72 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 267.62,
+                                "y": 69.52
+                            },
+                            "uuid": "9b3a28d6-81f1-4a8f-bcb5-0419d72f7ed1"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 35 [USIM_DATA, Bidirectional, Line]",
+                            "pos": {
+                                "x": 267.62,
+                                "y": 130.48
+                            },
+                            "uuid": "fae87d58-bece-4ab7-aab8-0d941ce6bd81"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label 'USIM_RST'",
+                            "pos": {
+                                "x": 270.0,
+                                "y": 170.0
+                            },
+                            "uuid": "db83d2ab-6f95-4891-89c6-1040398ea9e6"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 71 [PIN71, Passive, Line]",
+                            "pos": {
+                                "x": 270.16,
+                                "y": 69.52
+                            },
+                            "uuid": "17b54853-862e-4bd0-a0fb-75f2c2cd6125"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 36 [USIM_CLK, Output, Line]",
+                            "pos": {
+                                "x": 270.16,
+                                "y": 130.48
+                            },
+                            "uuid": "8503e443-a8ca-4798-8c41-eb0899add41f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 70 [PIN70, Passive, Line]",
+                            "pos": {
+                                "x": 272.7,
+                                "y": 69.52
+                            },
+                            "uuid": "6cf88e0d-1a90-4857-87c1-83d3a1f4d40e"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 37 [USIM_RST, Output, Line]",
+                            "pos": {
+                                "x": 272.7,
+                                "y": 130.48
+                            },
+                            "uuid": "6e8009a9-1174-4397-af3b-c175fc935e8a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 69 [PIN69, Passive, Line]",
+                            "pos": {
+                                "x": 275.24,
+                                "y": 69.52
+                            },
+                            "uuid": "9195d867-3b95-4eb1-9f36-3da736d8459c"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 38 [VBAT, Power input, Line]",
+                            "pos": {
+                                "x": 275.24,
+                                "y": 130.48
+                            },
+                            "uuid": "2b4cc7cd-83ad-423c-938e-3d5a51ef4e3a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 38 [VBAT, Power input, Line]",
+                            "pos": {
+                                "x": 275.24,
+                                "y": 130.48
+                            },
+                            "uuid": "2b4cc7cd-83ad-423c-938e-3d5a51ef4e3a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 68 [PIN68, Passive, Line]",
+                            "pos": {
+                                "x": 277.78,
+                                "y": 69.52
+                            },
+                            "uuid": "f1fbdabd-0c9e-43ea-9a1f-03a4a93720de"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 39 [VBAT, Power input, Line]",
+                            "pos": {
+                                "x": 277.78,
+                                "y": 130.48
+                            },
+                            "uuid": "9eaf4081-f946-412f-95b5-51ffe0a87877"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 39 [VBAT, Power input, Line]",
+                            "pos": {
+                                "x": 277.78,
+                                "y": 130.48
+                            },
+                            "uuid": "9eaf4081-f946-412f-95b5-51ffe0a87877"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label 'NETLIGHT'",
+                            "pos": {
+                                "x": 280.0,
+                                "y": 140.0
+                            },
+                            "uuid": "a5711bda-3dd5-4276-a8f4-c32ecc7181f0"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 67 [PIN67, Passive, Line]",
+                            "pos": {
+                                "x": 280.32,
+                                "y": 69.52
+                            },
+                            "uuid": "e2d52eaf-ad21-492a-9fc5-cb36612bbb5f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 40 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 280.32,
+                                "y": 130.48
+                            },
+                            "uuid": "fdf474de-ac4c-4ea0-b8e7-98967dac6c5c"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 40 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 280.32,
+                                "y": 130.48
+                            },
+                            "uuid": "fdf474de-ac4c-4ea0-b8e7-98967dac6c5c"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 66 [PIN66, Passive, Line]",
+                            "pos": {
+                                "x": 282.86,
+                                "y": 69.52
+                            },
+                            "uuid": "6d1a1e92-237c-466f-b5b4-325aa52e8335"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 65 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 282.86,
+                                "y": 74.6
+                            },
+                            "uuid": "736fbcb2-4fff-45cb-8496-2aa033501175"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 65 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 282.86,
+                                "y": 74.6
+                            },
+                            "uuid": "736fbcb2-4fff-45cb-8496-2aa033501175"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 64 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 282.86,
+                                "y": 77.14
+                            },
+                            "uuid": "c9cca760-4c15-4060-9784-57842c8c6b3c"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 64 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 282.86,
+                                "y": 77.14
+                            },
+                            "uuid": "c9cca760-4c15-4060-9784-57842c8c6b3c"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 63 [VBAT, Power input, Line]",
+                            "pos": {
+                                "x": 282.86,
+                                "y": 79.68
+                            },
+                            "uuid": "51b05e12-c77e-4b3a-b5a1-61bfdb37b1c4"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 63 [VBAT, Power input, Line]",
+                            "pos": {
+                                "x": 282.86,
+                                "y": 79.68
+                            },
+                            "uuid": "51b05e12-c77e-4b3a-b5a1-61bfdb37b1c4"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 62 [VBAT, Power input, Line]",
+                            "pos": {
+                                "x": 282.86,
+                                "y": 82.22
+                            },
+                            "uuid": "52841025-55e7-48dd-adf8-6640e9f901c9"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 62 [VBAT, Power input, Line]",
+                            "pos": {
+                                "x": 282.86,
+                                "y": 82.22
+                            },
+                            "uuid": "52841025-55e7-48dd-adf8-6640e9f901c9"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 61 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 282.86,
+                                "y": 84.76
+                            },
+                            "uuid": "afde9c11-abe4-4dc7-a042-2489508e23fa"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 61 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 282.86,
+                                "y": 84.76
+                            },
+                            "uuid": "afde9c11-abe4-4dc7-a042-2489508e23fa"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 60 [PIN60, Passive, Line]",
+                            "pos": {
+                                "x": 282.86,
+                                "y": 87.3
+                            },
+                            "uuid": "f3cf8f54-6f1c-4a1f-9908-8bb7b0783d56"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 59 [PIN59, Passive, Line]",
+                            "pos": {
+                                "x": 282.86,
+                                "y": 89.84
+                            },
+                            "uuid": "9d652934-4024-40fd-8ac7-3ec16f5afb74"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 58 [PIN58, Passive, Line]",
+                            "pos": {
+                                "x": 282.86,
+                                "y": 92.38
+                            },
+                            "uuid": "7a8ad761-bdab-4e69-b1d5-bf3b2385832e"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 57 [PIN57, Passive, Line]",
+                            "pos": {
+                                "x": 282.86,
+                                "y": 94.92
+                            },
+                            "uuid": "2dd4fa3a-b952-4a5d-b3de-3d8debe44c36"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 56 [PIN56, Passive, Line]",
+                            "pos": {
+                                "x": 282.86,
+                                "y": 97.46
+                            },
+                            "uuid": "6e1ac4b8-92bf-45e8-8ea7-9bd2e1343fc1"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 55 [PIN55, Passive, Line]",
+                            "pos": {
+                                "x": 282.86,
+                                "y": 100.0
+                            },
+                            "uuid": "b297c0e2-329a-4775-9988-112765f8a53d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 54 [PIN54, Passive, Line]",
+                            "pos": {
+                                "x": 282.86,
+                                "y": 102.54
+                            },
+                            "uuid": "35595bd4-b7d6-48de-b048-5660afaeaf0f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 53 [PIN53, Passive, Line]",
+                            "pos": {
+                                "x": 282.86,
+                                "y": 105.08
+                            },
+                            "uuid": "eb74d25a-a21c-4b0b-b79f-55b77db35a47"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 52 [PIN52, Passive, Line]",
+                            "pos": {
+                                "x": 282.86,
+                                "y": 107.62
+                            },
+                            "uuid": "b8620b40-e3f7-43a4-b478-59007957c487"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 51 [PIN51, Passive, Line]",
+                            "pos": {
+                                "x": 282.86,
+                                "y": 110.16
+                            },
+                            "uuid": "f7173635-443f-4654-9c82-205555d3615f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 50 [PIN50, Passive, Line]",
+                            "pos": {
+                                "x": 282.86,
+                                "y": 112.7
+                            },
+                            "uuid": "d8d176d4-572a-48ab-9def-7dc60c527e60"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 49 [PIN49, Passive, Line]",
+                            "pos": {
+                                "x": 282.86,
+                                "y": 115.24
+                            },
+                            "uuid": "54124450-cf85-4883-8fb9-ba48738acc44"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 48 [PIN48, Passive, Line]",
+                            "pos": {
+                                "x": 282.86,
+                                "y": 117.78
+                            },
+                            "uuid": "f78f4c9d-702c-4316-8ad9-0cc7a4e3db40"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 47 [PIN47, Passive, Line]",
+                            "pos": {
+                                "x": 282.86,
+                                "y": 120.32
+                            },
+                            "uuid": "9a4f00a8-f186-47b6-9928-f71861fb4d6a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 46 [PIN46, Passive, Line]",
+                            "pos": {
+                                "x": 282.86,
+                                "y": 122.86
+                            },
+                            "uuid": "b58407a0-b42d-45b2-ba78-23cf666c3cec"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 45 [PIN45, Passive, Line]",
+                            "pos": {
+                                "x": 282.86,
+                                "y": 125.4
+                            },
+                            "uuid": "56eaf32b-c999-4dcc-ab15-e641aae71297"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 44 [PIN44, Passive, Line]",
+                            "pos": {
+                                "x": 282.86,
+                                "y": 127.94
+                            },
+                            "uuid": "7ae9b7e8-4eb1-4d32-941b-9bd870abf80a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 41 [PIN41, Passive, Line]",
+                            "pos": {
+                                "x": 282.86,
+                                "y": 130.48
+                            },
+                            "uuid": "d6b511db-bdb0-47a9-b798-bfe46e05a214"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 42 [PIN42, Passive, Line]",
+                            "pos": {
+                                "x": 285.4,
+                                "y": 130.48
+                            },
+                            "uuid": "d8bcfd9c-ede4-46d8-bb77-424e0b9e21c3"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 43 [PIN43, Passive, Line]",
+                            "pos": {
+                                "x": 287.94,
+                                "y": 130.48
+                            },
+                            "uuid": "fe5b64f4-1de2-49bd-b4f1-1dd5b38baab7"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label 'RF_MAIN'",
+                            "pos": {
+                                "x": 295.0,
+                                "y": 95.0
+                            },
+                            "uuid": "2fc0a353-3476-428f-bf13-4668ed4ae1ff"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Global Label 'RF_GNSS'",
+                            "pos": {
+                                "x": 295.0,
+                                "y": 118.0
+                            },
+                            "uuid": "ecb01aaf-f2b7-437e-b039-f8be3fc22134"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'MountingHole'",
+                    "items": [
+                        {
+                            "description": "Symbol H1 [MountingHole_Pad]",
+                            "pos": {
+                                "x": 35.0,
+                                "y": 35.0
+                            },
+                            "uuid": "fd430346-4569-4a4e-b86c-52179bf344a7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'MountingHole'",
+                    "items": [
+                        {
+                            "description": "Symbol H3 [MountingHole_Pad]",
+                            "pos": {
+                                "x": 35.0,
+                                "y": 270.0
+                            },
+                            "uuid": "c7d07b8a-ba76-4c48-80ee-38fb20b86654"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol R1 [R]",
+                            "pos": {
+                                "x": 40.0,
+                                "y": 215.0
+                            },
+                            "uuid": "3c49d424-a638-4a7f-9b21-2af7c3425a5b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol R2 [R]",
+                            "pos": {
+                                "x": 45.0,
+                                "y": 215.0
+                            },
+                            "uuid": "e79ba788-2dba-413f-ac29-2f2e5b9f3680"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Connector_USB'",
+                    "items": [
+                        {
+                            "description": "Symbol J1 [USB_C_Receptacle_USB2.0_16P]",
+                            "pos": {
+                                "x": 50.0,
+                                "y": 200.0
+                            },
+                            "uuid": "0b4b41e6-e41a-43e1-b38c-a7618cedc42f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Package_TO_SOT_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol D2 [D_TVS]",
+                            "pos": {
+                                "x": 60.0,
+                                "y": 205.0
+                            },
+                            "uuid": "ae1cdf90-9070-4ee4-9db2-b2f962a4e1bb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Button_Switch_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol SW1 [SW_Push]",
+                            "pos": {
+                                "x": 65.0,
+                                "y": 120.0
+                            },
+                            "uuid": "79b2d314-ce72-46bf-a4fd-371434b1120d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Button_Switch_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol SW2 [SW_Push]",
+                            "pos": {
+                                "x": 65.0,
+                                "y": 140.0
+                            },
+                            "uuid": "cb5aa739-6722-453b-af6b-360f344e88d9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol C7 [C]",
+                            "pos": {
+                                "x": 70.0,
+                                "y": 75.0
+                            },
+                            "uuid": "8685d364-fac8-486f-b172-18a1599b5d88"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol C8 [C]",
+                            "pos": {
+                                "x": 70.0,
+                                "y": 85.0
+                            },
+                            "uuid": "3f10c6fd-13ab-4572-8ef9-7751488cbfb0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol C9 [C]",
+                            "pos": {
+                                "x": 70.0,
+                                "y": 95.0
+                            },
+                            "uuid": "bddbd0a3-f0aa-4543-b978-52fe47493b74"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol C10 [C]",
+                            "pos": {
+                                "x": 70.0,
+                                "y": 105.0
+                            },
+                            "uuid": "5dc0438b-bee4-4ef7-9788-ecf164779345"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol C1 [C]",
+                            "pos": {
+                                "x": 70.0,
+                                "y": 200.0
+                            },
+                            "uuid": "89879665-c205-4fa9-90af-455f12a1d500"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol R3 [R]",
+                            "pos": {
+                                "x": 75.0,
+                                "y": 115.0
+                            },
+                            "uuid": "f5de1764-b17a-4614-b6d0-7a42efb84067"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol C20 [C]",
+                            "pos": {
+                                "x": 75.0,
+                                "y": 125.0
+                            },
+                            "uuid": "71eba176-2846-4034-9f5d-18ce58eaf079"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol R4 [R]",
+                            "pos": {
+                                "x": 75.0,
+                                "y": 135.0
+                            },
+                            "uuid": "52693123-da7d-46bc-8460-e59a6e1e234c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol R18 [R]",
+                            "pos": {
+                                "x": 75.0,
+                                "y": 190.0
+                            },
+                            "uuid": "d9c836de-b326-4d89-b650-1debc428a29d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol R17 [R]",
+                            "pos": {
+                                "x": 75.0,
+                                "y": 215.0
+                            },
+                            "uuid": "261947d8-4c09-4f8c-9b9b-c9f8aa41c72d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Package_TO_SOT_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol U4 [MCP73831-2-OT]",
+                            "pos": {
+                                "x": 80.0,
+                                "y": 200.0
+                            },
+                            "uuid": "20121184-d9f5-4513-a6ca-598af430221f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'LED_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol LED3 [LED]",
+                            "pos": {
+                                "x": 85.0,
+                                "y": 190.0
+                            },
+                            "uuid": "a4adc9cf-1eda-4ee5-b77f-ff4853154188"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol C2 [C]",
+                            "pos": {
+                                "x": 95.0,
+                                "y": 200.0
+                            },
+                            "uuid": "d201a99a-fe9c-46d8-be06-f59fb463eda7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Fuse'",
+                    "items": [
+                        {
+                            "description": "Symbol F1 [Polyfuse]",
+                            "pos": {
+                                "x": 105.0,
+                                "y": 200.0
+                            },
+                            "uuid": "674d493c-a46c-4133-b1c7-4109bef72303"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Connector_JST'",
+                    "items": [
+                        {
+                            "description": "Symbol J2 [Conn_01x02]",
+                            "pos": {
+                                "x": 105.0,
+                                "y": 215.0
+                            },
+                            "uuid": "e62d6477-54c4-44ef-afb0-a87480f685af"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol R20 [R]",
+                            "pos": {
+                                "x": 105.0,
+                                "y": 250.0
+                            },
+                            "uuid": "fcf55ad1-c080-41c3-acab-6e742c1dd035"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Package_TO_SOT_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol Q6 [AO3401A]",
+                            "pos": {
+                                "x": 115.0,
+                                "y": 235.0
+                            },
+                            "uuid": "df7ac455-94db-4dfc-aa5a-34dfdf7cfb5e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Package_TO_SOT_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol Q7 [BSS138]",
+                            "pos": {
+                                "x": 115.0,
+                                "y": 250.0
+                            },
+                            "uuid": "37034144-98d3-44ce-bb75-7afe9bb4c3db"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'RF_Module'",
+                    "items": [
+                        {
+                            "description": "Symbol U1 [ESP32-S3-WROOM-1]",
+                            "pos": {
+                                "x": 120.0,
+                                "y": 100.0
+                            },
+                            "uuid": "cf1f95d4-08eb-42e7-9f90-8277186d7bcd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol C3 [C]",
+                            "pos": {
+                                "x": 120.0,
+                                "y": 200.0
+                            },
+                            "uuid": "090fe844-acf9-44f5-82bc-c1444459bb19"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol R19 [R]",
+                            "pos": {
+                                "x": 125.0,
+                                "y": 230.0
+                            },
+                            "uuid": "89615c43-5b01-4bf1-bd1f-4ceadbc3b5f6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol R5 [R]",
+                            "pos": {
+                                "x": 125.0,
+                                "y": 240.0
+                            },
+                            "uuid": "a708a10b-3ec2-429c-8481-ea542d26d18d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol R6 [R]",
+                            "pos": {
+                                "x": 125.0,
+                                "y": 250.0
+                            },
+                            "uuid": "d071aa06-e1a6-4192-adf0-59a9e4325bc9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Package_TO_SOT_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol U5 [AP2112K-3.3]",
+                            "pos": {
+                                "x": 130.0,
+                                "y": 200.0
+                            },
+                            "uuid": "ed560b29-a441-439c-9ce2-157209624397"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol C6 [C]",
+                            "pos": {
+                                "x": 135.0,
+                                "y": 245.0
+                            },
+                            "uuid": "b1c25bf0-4c26-499d-9d3c-621b2784a251"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol C4 [C]",
+                            "pos": {
+                                "x": 140.0,
+                                "y": 200.0
+                            },
+                            "uuid": "371d800e-8faf-4af0-b2b7-3d03c45b29ec"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol C5 [C]",
+                            "pos": {
+                                "x": 145.0,
+                                "y": 200.0
+                            },
+                            "uuid": "36f1e897-868f-4cb6-9bac-f884727a1688"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol C37 [C]",
+                            "pos": {
+                                "x": 150.0,
+                                "y": 160.0
+                            },
+                            "uuid": "dae20637-0489-430b-bf73-e654ca0f2d7c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Sensor_Humidity'",
+                    "items": [
+                        {
+                            "description": "Symbol U6 [SHT4x]",
+                            "pos": {
+                                "x": 160.0,
+                                "y": 160.0
+                            },
+                            "uuid": "969cf84b-659d-40a1-8296-bfd058436936"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol R7 [R]",
+                            "pos": {
+                                "x": 165.0,
+                                "y": 125.0
+                            },
+                            "uuid": "0c402883-f642-45a5-846b-241363e00e21"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol R22 [R]",
+                            "pos": {
+                                "x": 170.0,
+                                "y": 155.0
+                            },
+                            "uuid": "70036ab4-3a9b-402d-bd55-570b98988f97"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'LED_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol LED1 [LED]",
+                            "pos": {
+                                "x": 175.0,
+                                "y": 125.0
+                            },
+                            "uuid": "30f452bb-132e-4e57-a268-fac938589154"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol R23 [R]",
+                            "pos": {
+                                "x": 175.0,
+                                "y": 155.0
+                            },
+                            "uuid": "8aba841e-8ffa-4abd-9d23-8c3c747bfb33"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Package_TO_SOT_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol Q8 [AO3401A]",
+                            "pos": {
+                                "x": 175.0,
+                                "y": 205.0
+                            },
+                            "uuid": "fe0c1f09-2ef1-4095-9bca-2cc269cf17f7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Package_TO_SOT_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol Q10 [BSS138]",
+                            "pos": {
+                                "x": 175.0,
+                                "y": 218.0
+                            },
+                            "uuid": "d3a15f5b-3263-46d9-a9e7-7e8c25b7279b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol C21 [C]",
+                            "pos": {
+                                "x": 180.0,
+                                "y": 95.0
+                            },
+                            "uuid": "0b705338-8d89-4bd0-bdb7-80eb107fa371"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Connector_JST'",
+                    "items": [
+                        {
+                            "description": "Symbol J7 [Conn_01x04]",
+                            "pos": {
+                                "x": 185.0,
+                                "y": 165.0
+                            },
+                            "uuid": "ab72a136-849f-41ae-b414-b2c8aa49e76e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol R21 [R]",
+                            "pos": {
+                                "x": 185.0,
+                                "y": 202.0
+                            },
+                            "uuid": "178c2b9b-71f2-486c-adb3-e43b1cb4ef6d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Package_SO'",
+                    "items": [
+                        {
+                            "description": "Symbol U3 [TXS0104ED]",
+                            "pos": {
+                                "x": 190.0,
+                                "y": 110.0
+                            },
+                            "uuid": "51b9f02a-5a42-4641-8e79-304235a44c5b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol R11 [R]",
+                            "pos": {
+                                "x": 195.0,
+                                "y": 125.0
+                            },
+                            "uuid": "66e6fa82-cdf1-4f6b-89ef-3bcc2eb28d2a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol C22 [C]",
+                            "pos": {
+                                "x": 200.0,
+                                "y": 95.0
+                            },
+                            "uuid": "6e4f1999-5e7c-4f3a-9278-11b65c9e278b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Connector_FFC-FPC'",
+                    "items": [
+                        {
+                            "description": "Symbol J6 [Conn_01x24]",
+                            "pos": {
+                                "x": 200.0,
+                                "y": 220.0
+                            },
+                            "uuid": "3e3e5dae-c77e-4209-8987-6598303c65f9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol R9 [R]",
+                            "pos": {
+                                "x": 205.0,
+                                "y": 75.0
+                            },
+                            "uuid": "f1dbf192-d717-4788-9e7c-bbf7a0ff944a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Package_TO_SOT_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol Q1 [AO3401A]",
+                            "pos": {
+                                "x": 215.0,
+                                "y": 60.0
+                            },
+                            "uuid": "72874be7-39a8-4831-8dd0-1c246411141c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Package_TO_SOT_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol Q2 [BSS138]",
+                            "pos": {
+                                "x": 215.0,
+                                "y": 75.0
+                            },
+                            "uuid": "018ec9e5-3f1f-4250-8f56-a3688dab2ded"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol R8 [R]",
+                            "pos": {
+                                "x": 225.0,
+                                "y": 55.0
+                            },
+                            "uuid": "9b432395-bb6d-4105-9b83-dbdea5adbd22"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Package_TO_SOT_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol Q3 [BSS138]",
+                            "pos": {
+                                "x": 225.0,
+                                "y": 135.0
+                            },
+                            "uuid": "8dec6aa4-1248-4555-bb55-7d966ba50a62"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Package_TO_SOT_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol Q4 [BSS138]",
+                            "pos": {
+                                "x": 225.0,
+                                "y": 150.0
+                            },
+                            "uuid": "36e7756b-ec39-483e-94f4-0ae486e7b63b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Inductor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol L2 [L]",
+                            "pos": {
+                                "x": 230.0,
+                                "y": 210.0
+                            },
+                            "uuid": "0ec7f075-b41d-4164-a78b-5e7987471a85"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Package_TO_SOT_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol Q9 [BSS138]",
+                            "pos": {
+                                "x": 230.0,
+                                "y": 225.0
+                            },
+                            "uuid": "f7e71022-f9c7-48db-ae68-46655bf430e3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol R10 [R]",
+                            "pos": {
+                                "x": 230.0,
+                                "y": 238.0
+                            },
+                            "uuid": "0cc1e8fa-ba46-443d-b831-04c870342bd1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol C23 [C]",
+                            "pos": {
+                                "x": 235.0,
+                                "y": 135.0
+                            },
+                            "uuid": "bcf53e7c-a41c-4258-abc6-335be39b9575"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol C24 [C]",
+                            "pos": {
+                                "x": 235.0,
+                                "y": 150.0
+                            },
+                            "uuid": "a4465b36-02c5-4e32-9579-4b1f2cd62bde"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 8 [VDD_EXT, Power output, Line]",
+                            "pos": {
+                                "x": 237.14,
+                                "y": 89.84
+                            },
+                            "uuid": "ffcfac4a-f385-4d9a-9826-5c8cb565318e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Capacitor_Tantalum_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol C11 [C_Polarized]",
+                            "pos": {
+                                "x": 240.0,
+                                "y": 60.0
+                            },
+                            "uuid": "cafd8db3-390a-410d-9e9f-255b19123835"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Diode_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol D3 [D_Schottky]",
+                            "pos": {
+                                "x": 240.0,
+                                "y": 215.0
+                            },
+                            "uuid": "418f086a-d63c-4b14-af1a-df8cede24344"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Diode_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol D4 [D_Schottky]",
+                            "pos": {
+                                "x": 240.0,
+                                "y": 225.0
+                            },
+                            "uuid": "c881dd78-7b06-43f8-8ca5-b4a39a6d370c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Diode_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol D5 [D_Schottky]",
+                            "pos": {
+                                "x": 240.0,
+                                "y": 235.0
+                            },
+                            "uuid": "04eb3e5d-8eb8-4e82-a7f9-ce43b547c5d6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol C29 [C]",
+                            "pos": {
+                                "x": 245.0,
+                                "y": 175.0
+                            },
+                            "uuid": "6ddbf457-c4db-4082-9784-39cc6fdb895e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol C30 [C]",
+                            "pos": {
+                                "x": 245.0,
+                                "y": 185.0
+                            },
+                            "uuid": "ef63fd6b-4be7-44c8-b654-4226c78a9e3b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Capacitor_Tantalum_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol C12 [C_Polarized]",
+                            "pos": {
+                                "x": 248.0,
+                                "y": 60.0
+                            },
+                            "uuid": "4190d0c7-d6a3-4d99-bd3f-6ab00e20b137"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol C25 [C]",
+                            "pos": {
+                                "x": 250.0,
+                                "y": 210.0
+                            },
+                            "uuid": "db9db6f8-ec98-4fbe-8d71-bef3b4de4bda"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol C26 [C]",
+                            "pos": {
+                                "x": 250.0,
+                                "y": 220.0
+                            },
+                            "uuid": "d63b0cf3-1072-4f55-be83-718a92b422e0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol C27 [C]",
+                            "pos": {
+                                "x": 250.0,
+                                "y": 230.0
+                            },
+                            "uuid": "7082107f-bfc9-4a41-968a-583bbd6cb2d8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol C28 [C]",
+                            "pos": {
+                                "x": 250.0,
+                                "y": 240.0
+                            },
+                            "uuid": "5d662c19-0bbb-407b-9566-afade4291b6a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol C13 [C]",
+                            "pos": {
+                                "x": 256.0,
+                                "y": 60.0
+                            },
+                            "uuid": "7000084d-e256-48ae-9f35-5af7d00163e5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol C35 [C]",
+                            "pos": {
+                                "x": 258.0,
+                                "y": 225.0
+                            },
+                            "uuid": "d2d821bb-bca9-48f9-93b2-42e0d93271d2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol C36 [C]",
+                            "pos": {
+                                "x": 258.0,
+                                "y": 235.0
+                            },
+                            "uuid": "3b6a6c16-cab8-4a94-8a39-c8ebfaf56d2a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library ''",
+                    "items": [
+                        {
+                            "description": "Symbol U2 [SIMCom_SIM7600G]",
+                            "pos": {
+                                "x": 260.0,
+                                "y": 100.0
+                            },
+                            "uuid": "9dff7353-6d9a-45ed-8ee0-12867edb5959"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Connector_Card'",
+                    "items": [
+                        {
+                            "description": "Symbol J3 [Conn_01x06]",
+                            "pos": {
+                                "x": 260.0,
+                                "y": 180.0
+                            },
+                            "uuid": "515a2d09-f54d-4735-a3cb-1d359b459916"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol C14 [C]",
+                            "pos": {
+                                "x": 264.0,
+                                "y": 60.0
+                            },
+                            "uuid": "1462141b-81af-40cc-a1ca-81ec2e90becc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol C15 [C]",
+                            "pos": {
+                                "x": 272.0,
+                                "y": 60.0
+                            },
+                            "uuid": "dee121c3-b6cd-46b9-9d82-fbcc7c1275be"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol R12 [R]",
+                            "pos": {
+                                "x": 275.0,
+                                "y": 145.0
+                            },
+                            "uuid": "cd1f6d32-70fb-4e32-8cd1-b78d2140ebf1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol R13 [R]",
+                            "pos": {
+                                "x": 275.0,
+                                "y": 175.0
+                            },
+                            "uuid": "d9f102d4-7dc6-4a25-8b58-14a10e989dc7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol R14 [R]",
+                            "pos": {
+                                "x": 275.0,
+                                "y": 180.0
+                            },
+                            "uuid": "fd308ef7-cea8-474f-a118-8e26fcac2db3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol R15 [R]",
+                            "pos": {
+                                "x": 275.0,
+                                "y": 185.0
+                            },
+                            "uuid": "21969339-0ca6-4a9c-a054-38d031657f4e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol C16 [C]",
+                            "pos": {
+                                "x": 280.0,
+                                "y": 60.0
+                            },
+                            "uuid": "c117ef68-0da1-44be-b20b-3ed7b6ae4a72"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'LED_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol LED2 [LED]",
+                            "pos": {
+                                "x": 285.0,
+                                "y": 145.0
+                            },
+                            "uuid": "b234e7ab-3d30-4730-8cc1-69be255a33a1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Package_TO_SOT_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol D8 [D_TVS]",
+                            "pos": {
+                                "x": 285.0,
+                                "y": 180.0
+                            },
+                            "uuid": "806f75e8-fc90-497c-8ac1-4de4d3ccd9a0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol C17 [C]",
+                            "pos": {
+                                "x": 288.0,
+                                "y": 60.0
+                            },
+                            "uuid": "ede1aad6-0d98-41de-8179-cf0d4dc46baa"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol C31 [C]",
+                            "pos": {
+                                "x": 290.0,
+                                "y": 105.0
+                            },
+                            "uuid": "a635cddd-6c12-45c3-a207-588c4d9c823a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Resistor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol R16 [R]",
+                            "pos": {
+                                "x": 295.0,
+                                "y": 100.0
+                            },
+                            "uuid": "81ec62c7-1583-4325-8780-3c7d64760b8a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol C34 [C]",
+                            "pos": {
+                                "x": 295.0,
+                                "y": 110.0
+                            },
+                            "uuid": "0ec4fb01-0ed4-4806-8e80-1e2c40949c55"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Inductor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol L1 [L]",
+                            "pos": {
+                                "x": 295.0,
+                                "y": 115.0
+                            },
+                            "uuid": "b9cae9e3-d607-4b82-991f-c16a58437d64"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol C33 [C]",
+                            "pos": {
+                                "x": 295.0,
+                                "y": 120.0
+                            },
+                            "uuid": "ae49504a-11f5-49f6-8b04-6cfe94d082f4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol C18 [C]",
+                            "pos": {
+                                "x": 296.0,
+                                "y": 60.0
+                            },
+                            "uuid": "67cc1968-c89e-43bb-a4e3-1d86eb8c9459"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol C32 [C]",
+                            "pos": {
+                                "x": 300.0,
+                                "y": 105.0
+                            },
+                            "uuid": "95d32918-0c83-46d7-9ed6-120ce65b1fa7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Capacitor_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol C19 [C]",
+                            "pos": {
+                                "x": 304.0,
+                                "y": 60.0
+                            },
+                            "uuid": "2ca0d076-6888-47fc-b821-61e3dc456d7d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Connector_Coaxial'",
+                    "items": [
+                        {
+                            "description": "Symbol J4 [Conn_Coaxial]",
+                            "pos": {
+                                "x": 310.0,
+                                "y": 100.0
+                            },
+                            "uuid": "c5b6bfbe-c985-445b-a0ea-5b433df065c2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Connector_Coaxial'",
+                    "items": [
+                        {
+                            "description": "Symbol J5 [Conn_Coaxial]",
+                            "pos": {
+                                "x": 310.0,
+                                "y": 120.0
+                            },
+                            "uuid": "80b32771-90b3-41f8-bd5a-bb9a2726739b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Diode_SMD'",
+                    "items": [
+                        {
+                            "description": "Symbol D1 [D_TVS]",
+                            "pos": {
+                                "x": 312.0,
+                                "y": 60.0
+                            },
+                            "uuid": "ae416550-8d7e-4791-91b8-c2fbe7e361d8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'MountingHole'",
+                    "items": [
+                        {
+                            "description": "Symbol H2 [MountingHole_Pad]",
+                            "pos": {
+                                "x": 350.0,
+                                "y": 35.0
+                            },
+                            "uuid": "fd132ff7-2aba-4e96-a971-12005a1f9749"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'MountingHole'",
+                    "items": [
+                        {
+                            "description": "Symbol H4 [MountingHole_Pad]",
+                            "pos": {
+                                "x": 350.0,
+                                "y": 270.0
+                            },
+                            "uuid": "1d235015-d6a3-4daf-9f8b-128433c78d97"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                }
+            ]
+        }
+    ],
+    "source": "Low-Power_Cellular_ePaper_Device_ESP32-S3_SIM7600.kicad_sch"
+}
