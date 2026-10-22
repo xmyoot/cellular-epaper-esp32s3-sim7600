@@ -11,5 +11,6 @@ jobs:
         with:
           python-version: '3.12'
       - run: python3 scripts/check_sources.py
+      - run: python3 scripts/check_hardware.py
       - name: Scope of this check
-        run: echo 'Metadata only. Hardware release remains blocked; see review/README.md.'
+        run: echo 'Source consistency and critical connection regressions only. Native CAD checks and physical validation remain separate gates.'

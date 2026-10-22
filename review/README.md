@@ -1,69 +1,49 @@
-# Engineering review — 2026-10-21
+# Revision B engineering review — 2026-10-21
 
-**Disposition: redesign required, manufacturing release blocked.** This review repairs source integrity and incorrect claims; it does not certify circuit operation or close the electrical defects below.
-
-## Confirmed source repairs
-
-- Restored project instance paths and numeric power-symbol annotations.
-- Rebuilt qualified cached standard symbols and resolved inherited definitions. The original netlist exported only U2; the repaired netlist exports all 100 board components. Restoring real symbol pins exposes errors that the malformed cache concealed.
-- Added project symbol/footprint library tables and a local custom symbol library. The unqualified modem symbol remains identifiable as custom.
-- Replaced 98 incorrect PCB value properties with their schematic values; all 100 PCB values now match the schematic.
-- Regenerated the BOM as one row per reference, including explicit C31/C32 DNP entries. Removed invented manufacturer/MPN associations and marked procurement unqualified.
-- Corrected the supply-droop unit error, contradictory sleep-current arithmetic, divider values/settling assumption, component descriptions, and unsupported manufacturing/performance claims.
-
-These fixes preserve the original copper geometry. **No electrical rerouting or corrected manufacturing package is claimed.**
+**Disposition: CAD routing complete; manufacturing and physical validation remain blocked.** This is an engineering prototype, not a demonstrated working product. The portfolio entry stays unpublished.
 
 ## Current native checks
 
-KiCad 10.0.7, after source repairs:
+KiCad 10.0.7, with refilled zones and schematic parity enabled:
 
-| Check | Result | Artifact |
+| Check | Result | Evidence |
 | --- | --- | --- |
-| ERC | 494 errors; warnings are retained in JSON | [erc-current.json](erc-current.json) |
-| Copper DRC, zones refilled in memory | 0 violations | [drc-current.json](drc-current.json) |
-| PCB unconnected items | 0 | same report |
-| Schematic parity | 304 issues | same report |
-| Complete netlist | 100 components | [netlist-current.net](netlist-current.net) |
+| ERC | 0 errors, 1 library-comparison warning | [erc-current.json](erc-current.json) |
+| PCB DRC | 0 violations | [drc-current.json](drc-current.json) |
+| Unconnected PCB items | 0 | same report |
+| Schematic/PCB parity | 0 issues | same report |
+| Source / BOM / PCB pin-net consistency | 108 components, passed | `scripts/check_sources.py` |
+| Critical circuit and modem footprint regressions | Passed | `scripts/check_hardware.py` |
 
-The original imported ERC report had 156 errors and 2 warnings. The fresh baseline before cache repair additionally reported missing local library links. Higher post-repair counts reflect restoration of previously missing symbol pins, not a new validated circuit. Original reports and renders are historical evidence only.
+The ERC warning is `lib_symbol_mismatch` on U6 (SHT4x). Its cached symbol was compared structurally to the installed standard-library definition and matches after removing the library prefix from its name; its four pin assignments are checked against the design map. The warning is retained, not excluded. It remains a library reconciliation item for the final independent review.
 
-## Open hardware defects
+The initial six open connections have been repaired. C37 is on the SHT40 supply-pin side, with explicit straight pin escapes that respect the sensor footprint keepouts. C34/C39 supply connections and local USB resistor placement were corrected. Decorative silkscreen was clipped or moved to fabrication layers, with the resulting J1/U1/D7 derivatives saved in the project-local footprint library.
 
-| Priority | Evidence in current PCB/source | Required correction |
-| --- | --- | --- |
-| Critical | U2 routes PWRKEY to pad 87, reset to 86, TXD to 11, MAIN antenna to 73, GNSS antenna to 75. The reviewed SIM7600G/G-H document specifies PWRKEY 3, RESET 4, TXD 71, MAIN_ANT 82 and GNSS_ANT 79. | Replace the entire custom symbol and land pattern against the selected module revision; audit every pad and reroute. Do not merely rename nets. |
-| Critical | D8 USBLC6-2SC6: pad 1 = USIM_CLK, pad 6 = GND, pad 3 = USIM_DATA, pad 4 = USIM_RST. Its internally common pairs are 1/6 and 3/4. | Use a correctly mapped SIM protection network; the present part grounds clock and joins data/reset internally. |
-| High | LED1/LED2 place their cathodes toward the driven signal and anodes at GND. LED3 has cathode at VBUS and anode at CHG_STAT; both R18 pads are VBUS. | Correct LED polarity and insert a real series resistor for the charge indicator; review modem LED drive capability. |
-| High | J6 pin 18 (VDD, internal logic supply output on the intended panel) is tied to VCC_EPD. D3's SOD-123 cathode is at EPD_SW, rather than a rectified positive output. | Rebuild the complete boost/panel network from the selected panel reference circuit, including VDD bypass, diode orientation, MOSFET/inductor ratings and connector orientation. |
-| High | U3 OE pin 8 is directly tied to +3.3V while VCCA is the modem 1.8V domain; both R11 pads are +3.3V. | Implement OE control and default-off behavior referenced to VCCA per the translator datasheet; verify powered-off behavior. |
-| High | MODEM_STATUS is directly connected to a 3.3V MCU input without qualified 1.8V-to-3.3V translation. | Check guaranteed input thresholds and add translation if needed; audit UART flow-control directions too. |
-| High | Hundreds of schematic pins are unconnected; 46 labels are dangling; schematic and PCB disagree. D2/D8 use a two-pin TVS symbol for a six-pin device. | Rebuild functional sheets with correct symbols, explicit nets and justified no-connect markers; achieve schematic/PCB parity. |
-| High | U5 has two alternative parts in one value; U1 memory variant is unspecified; EPD uses GPIOs whose availability depends on module variant. | Lock exact MPNs and review power pinouts, regulator limits and GPIO availability. |
-| High | Direct battery modem rail, unqualified PTC/capacitor/MOSFET parts, charger/system-load interaction, and unmeasured sleep current. | Complete power/current/thermal analysis and bench tests; remove unsupported battery-life claims. |
-| Medium | No fabricator-controlled stackup or impedance qualification; old fabrication outputs are not tied to a valid electrical design. | Validate RF return paths and antenna keepouts, select stackup, regenerate all release files only after fixes. |
+## What changed
 
-Sources: [SIMCom hardware design, pin table pp. 12–13](https://simcom.ee/documents/SIM7600E/sim7600g_sim7600g-h_hardware_design_v1.00.pdf), [ST USBLC6-2 functional diagram](https://www.st.com/resource/en/datasheet/usblc6-2.pdf), [TI TXS0104E pin functions and OE guidance](https://www.ti.com/lit/ds/symlink/txs0104e.pdf), [Good Display panel specification](https://files.seeedstudio.com/wiki/Other_Display/29-epaper/GDEY029T94.pdf).
+The old design's malformed cached symbols concealed major pin and net errors. Revision B rebuilds the modem's 135-pad symbol and land pattern, SIM protection, UART enable/STATUS voltage domains, display boost circuit, exact MCU variant and battery power architecture. See [design report](../DESIGN_REPORT.md) for the circuit changes, manufacturer references and calculations. The original findings are preserved in [the historical review](legacy/electrical-review-before-redesign.md).
 
-The modem document is a manufacturer-authored reference for identifying contradictions; confirm the final purchased module revision against current manufacturer documentation before implementing its footprint. No unspecified 24-pin panel should be treated as interchangeable.
+The replacement board is 100 × 80 mm, four layers, with an inner ground reference. RF geometry and USB routing still require qualification against an actual fabricator stackup. Four small signal/supply vias overlap SMD pad/paste areas and require **IPC-4761 Type VII filled, capped and plated via-in-pad processing**; see [fabrication constraints](../design/FABRICATION_CONSTRAINTS.md). No fabrication order is authorized by these checks.
 
-## Reproduce the checks
+The [schematic PDF](rev-b/schematic.pdf) and [top CAD view](rev-b/pcb-top.png) represent revision B. The modem and SIM socket have no installed 3D body models; visible lands are not a depopulation instruction. Renders cannot establish component fit.
 
-Install KiCad 10 and standard symbol/footprint libraries. Run from the repository root:
+## Reproduce checks
+
+With KiCad 10 and its standard libraries installed, run from the repository root (replace `kicad-cli` with its installed path if needed):
 
 ```sh
-kicad-cli sch export netlist -o review/netlist-current.net Low-Power_Cellular_ePaper_Device_ESP32-S3_SIM7600.kicad_sch
-kicad-cli sch erc --format json -o review/erc-current.json Low-Power_Cellular_ePaper_Device_ESP32-S3_SIM7600.kicad_sch
-kicad-cli pcb drc --schematic-parity --refill-zones --format json -o review/drc-current.json Low-Power_Cellular_ePaper_Device_ESP32-S3_SIM7600.kicad_pcb
 python3 scripts/check_sources.py
+python3 scripts/check_hardware.py
+kicad-cli sch erc --format json -o review/erc-current.json Low-Power_Cellular_ePaper_Device_ESP32-S3_SIM7600.kicad_sch
+kicad-cli sch export netlist -o review/netlist-current.net Low-Power_Cellular_ePaper_Device_ESP32-S3_SIM7600.kicad_sch
+kicad-cli pcb drc --format json --schematic-parity --refill-zones --save-board -o review/drc-current.json Low-Power_Cellular_ePaper_Device_ESP32-S3_SIM7600.kicad_pcb
 python3 scripts/check_release.py
 ```
 
-`--refill-zones` checks a refilled board in memory; no `--save-board` was used. This review does not silently change copper. A clean metadata test only checks reference/value/cache/export integrity. The release gate reads both CAD findings and explicitly open hardware blockers. It must fail for this revision.
+The last command intentionally exits 1 while release gates remain open. JSON reports retain native severities; no ERC/DRC exclusions are used. Source hashes identify the reviewed source, rather than implying physical qualification.
 
-## Release gates
+`scripts/generate_revision_b.py` reconstructs the schematic, custom modem library and BOM from the net map. `scripts/place_revision_b.py` creates placement only and **replaces the routed board**; it is not a release regeneration command. The checked-in routed board is the reviewed layout. Historic `scratch/` experiments are not part of this workflow.
 
-1. Correct symbols, pinouts and device-specific circuits; achieve a complete, readable schematic with zero unexplained ERC errors.
-2. Replace the modem land pattern and update PCB from the schematic; reroute, refill zones, then obtain zero unconnected items, no unexplained DRC errors and zero parity issues.
-3. Qualify exact BOM MPNs, voltage/current ratings, tolerances, DNP status and assembler rotations; confirm connector mating and mechanical clearances.
-4. Validate charging and startup safely on a current-limited supply; scope modem VBAT at worst-case input/load, verify power gating and deep sleep, test SIM attach/GNSS/USB/display, and measure regulator temperature.
-5. Document actual results, regenerate fabrication files from the reviewed commit, and replace historical renders before presenting the project as a completed design.
+## Remaining release gates
+
+Complete the qualified BOM, purchased-part orientation/footprint checks, fabricator stackup and via-in-pad process, RF/USB impedance review, supply-transient and thermal qualification, and all recorded prototype tests in [design/VALIDATION.md](../design/VALIDATION.md). Reconcile the retained ERC library warning during independent review. No measured battery-life, RF, display or sleep-current results are claimed.

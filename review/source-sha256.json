@@ -1,7 +1,18 @@
 {
-  "Low-Power_Cellular_ePaper_Device_ESP32-S3_SIM7600.kicad_sch": "428b757e3fe817301e04177ce78df7a8c8be09386ccffd526c0e1249e737057d",
-  "Low-Power_Cellular_ePaper_Device_ESP32-S3_SIM7600.kicad_pcb": "4ea298ee4b434b032239c9728f440ffec4736243caec4b18fbc7342debc44450",
-  "Low-Power_Cellular_ePaper_Device_ESP32-S3_SIM7600.kicad_pro": "73400e977799eedd46f92fcc04ccf5d690194cefd4a243dcecc6bd4ffc6c0c30",
-  "Cellular.kicad_sym": "c57d964e5ff60e7ec951d88c872c2249676a6aca0717871c7ac8c1b0ff1c2671",
-  "BOM.csv": "de4ae1ad192ef61f0586534a9e57e6190869d32b9af755c7941f3a3b04d19bb9"
+  "BOM.csv": "88dc8fe9d81d2b11394e80bcc74fa60d17d84411225527921944ea3cdc69fa88",
+  "Cellular.kicad_sym": "da942d1a0554014c45c4d6238d8d6db644d56855d601873e93ffe635f27a3748",
+  "Cellular.pretty/D_SOD-882_SIM.kicad_mod": "bee15a1ffe12625e68d972c53232a1064ee13f501d368d47f5d083c79eca7891",
+  "Cellular.pretty/ESP32-S3-WROOM-1_Edge.kicad_mod": "20d4740a30a676cb11abed1fd78302fccc3f4c7a82edb47d534507117b8be727",
+  "Cellular.pretty/SIM7600G_H_135.kicad_mod": "a4716e2cacc20f836ad9ada17af1b94276a8f31b7094cdea7a59a095b59711a4",
+  "Cellular.pretty/USB4085_Edge.kicad_mod": "af383ad73b6e12f6a661c2944b2eedf83bfd4ca637268f15cd8245654ed4eae9",
+  "Low-Power_Cellular_ePaper_Device_ESP32-S3_SIM7600.kicad_pcb": "eea347ddf509e14b1fe900be2c7f533f53003f5d556d9d20e19bcf57f5aa4cc4",
+  "Low-Power_Cellular_ePaper_Device_ESP32-S3_SIM7600.kicad_pro": "2bba284a8b9d6cba79cdf49653bdf82f7607dcff3bed7bc773bdcb080a40cc09",
+  "Low-Power_Cellular_ePaper_Device_ESP32-S3_SIM7600.kicad_sch": "852ea0ce572ebe25e5c11d7fd492b6273108ece83e0522ad7cf9d9991b780277",
+  "controller.kicad_sch": "d23bc4b9a909444cf0196b02a24125b1c8cb298ef4f1920cf13466e736c8416c",
+  "design/rev-b-netmap.json": "35722fb55056876004f11c0c0b4a46e1a5ecb88564f087bf334c02f2e48a914d",
+  "display.kicad_sch": "ee0535161baa4be0ed68ca83fd37f92f252ed6640a77360225f9624ac30fa662",
+  "interfaces.kicad_sch": "839d7bc21c844059e0c6155f80dc06d0a240ffe8c6fe961c2c0f81f2c3e1ceff",
+  "modem.kicad_sch": "e1aeb1a97ee2c5b436e0e9522b2b35df379894ed43c001f4ee727f955d9662ed",
+  "power.kicad_sch": "91b94b0637faca5a037002daa13967ef940c5f85ed60b00fb3582f214ca9e52e",
+  "sensors.kicad_sch": "67dc7ff54626d75778b32874fbcf78b6ed8935ba7b30713c40a24528d2ef93aa"
 }

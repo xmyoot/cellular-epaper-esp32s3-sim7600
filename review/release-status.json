@@ -1,12 +1,11 @@
 {
   "status": "blocked",
   "open_blockers": [
-    "modem symbol and footprint",
-    "SIM protection and LED wiring",
-    "display reference circuit",
-    "translator enable and voltage domains",
-    "schematic connectivity and PCB parity",
-    "power and procurement qualification",
-    "prototype validation"
+    "BOM procurement and assembler qualification",
+    "fabricator stackup and RF/USB impedance qualification",
+    "independent module/FPC footprint and contact-orientation check",
+    "power transient, thermal and battery-protection qualification",
+    "physical prototype validation; see design/VALIDATION.md",
+    "filled/capped/plated via-in-pad process and retained ERC library-warning reconciliation"
   ]
 }

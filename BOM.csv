@@ -1,101 +1,109 @@
-Reference,Value,Footprint,Layer,Assembly,Procurement status
-C1,4.7uF,Capacitor_SMD:C_0805_2012Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-C2,4.7uF,Capacitor_SMD:C_0805_2012Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-C3,10uF,Capacitor_SMD:C_0805_2012Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-C4,10uF,Capacitor_SMD:C_0805_2012Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-C5,0.1uF,Capacitor_SMD:C_0402_1005Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-C6,100nF,Capacitor_SMD:C_0402_1005Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-C7,10uF,Capacitor_SMD:C_0805_2012Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-C8,10uF,Capacitor_SMD:C_0805_2012Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-C9,0.1uF,Capacitor_SMD:C_0402_1005Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-C10,0.1uF,Capacitor_SMD:C_0402_1005Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-C11,220uF 6.3V ESR35mR,Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-C12,220uF 6.3V ESR35mR,Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-C13,47uF 10V,Capacitor_SMD:C_0805_2012Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-C14,47uF 10V,Capacitor_SMD:C_0805_2012Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-C15,10uF,Capacitor_SMD:C_0603_1608Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-C16,10uF,Capacitor_SMD:C_0603_1608Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-C17,0.1uF,Capacitor_SMD:C_0402_1005Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-C18,0.1uF,Capacitor_SMD:C_0402_1005Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-C19,33pF,Capacitor_SMD:C_0402_1005Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-C20,1uF,Capacitor_SMD:C_0603_1608Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-C21,0.1uF,Capacitor_SMD:C_0402_1005Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-C22,0.1uF,Capacitor_SMD:C_0402_1005Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-C23,100nF,Capacitor_SMD:C_0402_1005Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-C24,100nF,Capacitor_SMD:C_0402_1005Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-C25,4.7uF 25V,Capacitor_SMD:C_0805_2012Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-C26,4.7uF 25V,Capacitor_SMD:C_0805_2012Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-C27,4.7uF 25V,Capacitor_SMD:C_0805_2012Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-C28,4.7uF 25V,Capacitor_SMD:C_0805_2012Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-C29,1uF,Capacitor_SMD:C_0603_1608Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-C30,100nF,Capacitor_SMD:C_0402_1005Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-C31,DNP,Capacitor_SMD:C_0402_1005Metric,F.Cu,DNP,UNQUALIFIED - confirm exact MPN and ratings
-C32,DNP,Capacitor_SMD:C_0402_1005Metric,F.Cu,DNP,UNQUALIFIED - confirm exact MPN and ratings
-C33,47pF,Capacitor_SMD:C_0402_1005Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-C34,100nF,Capacitor_SMD:C_0402_1005Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-C35,1uF 25V,Capacitor_SMD:C_0805_2012Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-C36,1uF 10V,Capacitor_SMD:C_0603_1608Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-C37,0.1uF,Capacitor_SMD:C_0402_1005Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-D1,SMAJ5.0A,Diode_SMD:D_SMA,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-D2,USBLC6-2SC6,Package_TO_SOT_SMD:SOT-23-6,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-D3,MBR0530,Diode_SMD:D_SOD-123,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-D4,MBR0530,Diode_SMD:D_SOD-123,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-D5,MBR0530,Diode_SMD:D_SOD-123,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-D8,USBLC6-2SC6,Package_TO_SOT_SMD:SOT-23-6,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-F1,2.5A PTC,Fuse:Fuse_1206_3216Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-H1,M2.5,MountingHole:MountingHole_2.7mm_M2.5_Pad_Via,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-H2,M2.5,MountingHole:MountingHole_2.7mm_M2.5_Pad_Via,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-H3,M2.5,MountingHole:MountingHole_2.7mm_M2.5_Pad_Via,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-H4,M2.5,MountingHole:MountingHole_2.7mm_M2.5_Pad_Via,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-J1,USB-C,Connector_USB:USB_C_Receptacle_GCT_USB4085,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-J2,BATT (JST-PH),Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-J3,nanoSIM_GCT_SIM8060,Connector_Card:nanoSIM_GCT_SIM8060-6-0-14-00,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-J4,MAIN_ANT_UFL,Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-J5,GNSS_ANT_UFL,Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-J6,FH12-24S-0.5SH,Connector_FFC-FPC:Hirose_FH12-24S-0.5SH_1x24-1MP_P0.50mm_Horizontal,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-J7,Qwiic / STEMMA QT,Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-L1,47nH,Inductor_SMD:L_0402_1005Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-L2,10uH 1.2A,Inductor_SMD:L_1210_3225Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-LED1,USER (Green),LED_SMD:LED_0603_1608Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-LED2,NETLIGHT (Yellow),LED_SMD:LED_0603_1608Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-LED3,CHG (Red),LED_SMD:LED_0603_1608Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-Q1,AO3401A,Package_TO_SOT_SMD:SOT-23,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-Q2,BSS138,Package_TO_SOT_SMD:SOT-23,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-Q3,BSS138,Package_TO_SOT_SMD:SOT-23,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-Q4,BSS138,Package_TO_SOT_SMD:SOT-23,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-Q6,AO3401A,Package_TO_SOT_SMD:SOT-23,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-Q7,BSS138,Package_TO_SOT_SMD:SOT-23,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-Q8,AO3401A,Package_TO_SOT_SMD:SOT-23,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-Q9,BSS138,Package_TO_SOT_SMD:SOT-23,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-Q10,BSS138,Package_TO_SOT_SMD:SOT-23,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-R1,5.1k 1%,Resistor_SMD:R_0603_1608Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-R2,5.1k 1%,Resistor_SMD:R_0603_1608Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-R3,10k,Resistor_SMD:R_0603_1608Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-R4,10k,Resistor_SMD:R_0603_1608Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-R5,1M 1%,Resistor_SMD:R_0603_1608Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-R6,1M 1%,Resistor_SMD:R_0603_1608Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-R7,1k,Resistor_SMD:R_0603_1608Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-R8,100k,Resistor_SMD:R_0603_1608Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-R9,10k,Resistor_SMD:R_0603_1608Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-R10,0.47R 1%,Resistor_SMD:R_0805_2012Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-R11,10k,Resistor_SMD:R_0603_1608Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-R12,1k,Resistor_SMD:R_0603_1608Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-R13,22R,Resistor_SMD:R_0402_1005Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-R14,22R,Resistor_SMD:R_0402_1005Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-R15,22R,Resistor_SMD:R_0402_1005Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-R16,0R,Resistor_SMD:R_0402_1005Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-R17,2.0k 1%,Resistor_SMD:R_0603_1608Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-R18,1k,Resistor_SMD:R_0603_1608Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-R19,100k,Resistor_SMD:R_0603_1608Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-R20,10k,Resistor_SMD:R_0603_1608Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-R21,100k,Resistor_SMD:R_0603_1608Metric,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-R22,4.7k,Resistor_SMD:R_0603_1608Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-R23,4.7k,Resistor_SMD:R_0603_1608Metric,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-SW1,RESET,Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-SW2,BOOT,Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-U1,ESP32-S3-WROOM-1,RF_Module:ESP32-S3-WROOM-1,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-U2,SIMCom_SIM7600G,Low-Power_Cellular_ePaper_Device_ESP32-S3_SIM7600:SIMCom_SIM7600G,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-U3,TXS0104ED,Package_SO:SOIC-14_3.9x8.7mm_P1.27mm,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-U4,MCP73831-2-OT,Package_TO_SOT_SMD:SOT-23-5,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-U5,RT9080-33 / AP2112K,Package_TO_SOT_SMD:SOT-23-5,B.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
-U6,SHT40-AD1B,Sensor_Humidity:Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad,F.Cu,FIT,UNQUALIFIED - confirm exact MPN and ratings
+Reference,Value,Footprint,Assembly,Qualification
+C10,0.1uF,Capacitor_SMD:C_0402_1005Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+C11,220uF 6.3V T520D227M006ATE015,Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D,FIT,Engineering selection; validate ratings and procurement before fabrication
+C12,220uF 6.3V T520D227M006ATE015,Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D,FIT,Engineering selection; validate ratings and procurement before fabrication
+C13,47uF 10V,Capacitor_SMD:C_0805_2012Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+C14,47uF 10V,Capacitor_SMD:C_0805_2012Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+C15,10uF,Capacitor_SMD:C_0603_1608Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+C16,10uF,Capacitor_SMD:C_0603_1608Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+C17,0.1uF,Capacitor_SMD:C_0402_1005Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+C18,0.1uF,Capacitor_SMD:C_0402_1005Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+C19,33pF,Capacitor_SMD:C_0402_1005Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+C20,1uF,Capacitor_SMD:C_0603_1608Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+C21,0.1uF,Capacitor_SMD:C_0402_1005Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+C22,0.1uF,Capacitor_SMD:C_0402_1005Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+C23,100nF,Capacitor_SMD:C_0402_1005Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+C24,100nF,Capacitor_SMD:C_0402_1005Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+C25,1uF 25V,Capacitor_SMD:C_0805_2012Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+C26,1uF 25V,Capacitor_SMD:C_0805_2012Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+C27,1uF 25V,Capacitor_SMD:C_0805_2012Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+C28,1uF 25V,Capacitor_SMD:C_0805_2012Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+C29,1uF,Capacitor_SMD:C_0603_1608Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+C3,10uF,Capacitor_SMD:C_0805_2012Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+C30,100nF,Capacitor_SMD:C_0402_1005Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+C31,DNP,Capacitor_SMD:C_0402_1005Metric,DNP,Engineering selection; validate ratings and procurement before fabrication
+C32,DNP,Capacitor_SMD:C_0402_1005Metric,DNP,Engineering selection; validate ratings and procurement before fabrication
+C33,47pF,Capacitor_SMD:C_0402_1005Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+C34,100nF,Capacitor_SMD:C_0402_1005Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+C35,1uF 25V,Capacitor_SMD:C_0805_2012Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+C36,1uF 25V,Capacitor_SMD:C_0603_1608Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+C37,0.1uF,Capacitor_SMD:C_0402_1005Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+C38,100nF,Capacitor_SMD:C_0603_1608Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+C39,100nF,Capacitor_SMD:C_0603_1608Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+C4,10uF,Capacitor_SMD:C_0805_2012Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+C40,4.7uF 25V,Capacitor_SMD:C_0805_2012Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+C41,1uF 25V,Capacitor_SMD:C_0805_2012Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+C42,1uF 25V,Capacitor_SMD:C_0805_2012Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+C43,4.7uF 25V,Capacitor_SMD:C_0805_2012Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+C5,0.1uF,Capacitor_SMD:C_0402_1005Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+C6,100nF,Capacitor_SMD:C_0402_1005Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+C7,10uF,Capacitor_SMD:C_0805_2012Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+C8,10uF,Capacitor_SMD:C_0805_2012Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+C9,0.1uF,Capacitor_SMD:C_0402_1005Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+D2,USBLC6-2SC6,Package_TO_SOT_SMD:SOT-23-6,FIT,Engineering selection; validate ratings and procurement before fabrication
+D3,MBR0530,Diode_SMD:D_SOD-123,FIT,Engineering selection; validate ratings and procurement before fabrication
+D4,MBR0530,Diode_SMD:D_SOD-123,FIT,Engineering selection; validate ratings and procurement before fabrication
+D5,MBR0530,Diode_SMD:D_SOD-123,FIT,Engineering selection; validate ratings and procurement before fabrication
+D6,PESD3V3U1UL,Diode_SMD:D_SOD-882,FIT,Engineering selection; validate ratings and procurement before fabrication
+D7,PESD3V3U1UL,Cellular:D_SOD-882_SIM,FIT,Engineering selection; validate ratings and procurement before fabrication
+D9,PESD3V3U1UL,Diode_SMD:D_SOD-882,FIT,Engineering selection; validate ratings and procurement before fabrication
+F1,2.5A fast fuse,Fuse:Fuse_1206_3216Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+H1,M2.5,MountingHole:MountingHole_2.7mm_M2.5_Pad_Via,FIT,Engineering selection; validate ratings and procurement before fabrication
+H2,M2.5,MountingHole:MountingHole_2.7mm_M2.5_Pad_Via,FIT,Engineering selection; validate ratings and procurement before fabrication
+H3,M2.5,MountingHole:MountingHole_2.7mm_M2.5_Pad_Via,FIT,Engineering selection; validate ratings and procurement before fabrication
+H4,M2.5,MountingHole:MountingHole_2.7mm_M2.5_Pad_Via,FIT,Engineering selection; validate ratings and procurement before fabrication
+J1,USB-C,Cellular:USB4085_Edge,FIT,Engineering selection; validate ratings and procurement before fabrication
+J2,Protected LiPo 3A,Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,FIT,Engineering selection; validate ratings and procurement before fabrication
+J3,nanoSIM_GCT_SIM8060,Connector_Card:nanoSIM_GCT_SIM8060-6-0-14-00,FIT,Engineering selection; validate ratings and procurement before fabrication
+J4,MAIN_ANT_UFL,Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical,FIT,Engineering selection; validate ratings and procurement before fabrication
+J5,GNSS_ANT_UFL,Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical,FIT,Engineering selection; validate ratings and procurement before fabrication
+J6,FH12-24S-0.5SH,Connector_FFC-FPC:Hirose_FH12-24S-0.5SH_1x24-1MP_P0.50mm_Horizontal,FIT,Engineering selection; validate ratings and procurement before fabrication
+J7,Qwiic / STEMMA QT,Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,FIT,Engineering selection; validate ratings and procurement before fabrication
+J8,LTE diversity,Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical,FIT,Engineering selection; validate ratings and procurement before fabrication
+J9,Modem USB service,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,FIT,Engineering selection; validate ratings and procurement before fabrication
+L2,47uH SRN4018-470M,Inductor_SMD:L_Bourns-SRN4018,FIT,Engineering selection; validate ratings and procurement before fabrication
+LED1,USER (Green),LED_SMD:LED_0603_1608Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+Q1,AO3401A,Package_TO_SOT_SMD:SOT-23,FIT,Engineering selection; validate ratings and procurement before fabrication
+Q10,BSS138,Package_TO_SOT_SMD:SOT-23,FIT,Engineering selection; validate ratings and procurement before fabrication
+Q2,BSS138,Package_TO_SOT_SMD:SOT-23,FIT,Engineering selection; validate ratings and procurement before fabrication
+Q3,BSS138,Package_TO_SOT_SMD:SOT-23,FIT,Engineering selection; validate ratings and procurement before fabrication
+Q4,BSS138,Package_TO_SOT_SMD:SOT-23,FIT,Engineering selection; validate ratings and procurement before fabrication
+Q6,AO3401A,Package_TO_SOT_SMD:SOT-23,FIT,Engineering selection; validate ratings and procurement before fabrication
+Q7,BSS138,Package_TO_SOT_SMD:SOT-23,FIT,Engineering selection; validate ratings and procurement before fabrication
+Q8,AO3401A,Package_TO_SOT_SMD:SOT-23,FIT,Engineering selection; validate ratings and procurement before fabrication
+Q9,Si1308EDL,Package_TO_SOT_SMD:SOT-323_SC-70,FIT,Engineering selection; validate ratings and procurement before fabrication
+R1,5.1k 1%,Resistor_SMD:R_0603_1608Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+R10,2.2R,Resistor_SMD:R_0805_2012Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+R11,10k,Resistor_SMD:R_0603_1608Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+R13,22R,Resistor_SMD:R_0402_1005Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+R14,22R,Resistor_SMD:R_0402_1005Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+R15,22R,Resistor_SMD:R_0402_1005Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+R16,0R,Resistor_SMD:R_0402_1005Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+R19,100k,Resistor_SMD:R_0603_1608Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+R2,5.1k 1%,Resistor_SMD:R_0603_1608Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+R20,10k,Resistor_SMD:R_0603_1608Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+R21,100k,Resistor_SMD:R_0603_1608Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+R22,4.7k,Resistor_SMD:R_0603_1608Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+R23,4.7k,Resistor_SMD:R_0603_1608Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+R24,100k,Resistor_SMD:R_0603_1608Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+R25,1M,Resistor_SMD:R_0603_1608Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+R26,100k,Resistor_SMD:R_0603_1608Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+R27,100k,Resistor_SMD:R_0603_1608Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+R28,100k,Resistor_SMD:R_0603_1608Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+R29,22R,Resistor_SMD:R_0603_1608Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+R3,10k,Resistor_SMD:R_0603_1608Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+R30,22R,Resistor_SMD:R_0603_1608Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+R4,10k,Resistor_SMD:R_0603_1608Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+R5,1M 1%,Resistor_SMD:R_0603_1608Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+R6,1M 1%,Resistor_SMD:R_0603_1608Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+R7,1k,Resistor_SMD:R_0603_1608Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+R8,100k,Resistor_SMD:R_0603_1608Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+R9,10k,Resistor_SMD:R_0603_1608Metric,FIT,Engineering selection; validate ratings and procurement before fabrication
+SW1,RESET,Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK,FIT,Engineering selection; validate ratings and procurement before fabrication
+SW2,BOOT,Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK,FIT,Engineering selection; validate ratings and procurement before fabrication
+U1,ESP32-S3-WROOM-1-N8,Cellular:ESP32-S3-WROOM-1_Edge,FIT,Engineering selection; validate ratings and procurement before fabrication
+U2,SIM7600G-H,Cellular:SIM7600G_H_135,FIT,Engineering selection; validate ratings and procurement before fabrication
+U3,TXS0104ED,Package_SO:SOIC-14_3.9x8.7mm_P1.27mm,FIT,Engineering selection; validate ratings and procurement before fabrication
+U5,AP2112K-3.3TRG1,Package_TO_SOT_SMD:SOT-23-5,FIT,Engineering selection; validate ratings and procurement before fabrication
+U6,SHT40-AD1B,Sensor_Humidity:Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad,FIT,Engineering selection; validate ratings and procurement before fabrication
+U7,SN74LVC1T45DBVR,Package_TO_SOT_SMD:SOT-23-6,FIT,Engineering selection; validate ratings and procurement before fabrication

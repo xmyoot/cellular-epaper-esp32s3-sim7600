@@ -1,49 +1,32 @@
-# Cellular ePaper node — ESP32-S3 + SIM7600
+# Cellular ePaper — ESP32-S3 + SIM7600G-H
 
-**Status: hardware redesign required; not released for fabrication.**
+Revision B is an **engineering prototype under validation**. It is not released for fabrication or presented as a working, tested device. The portfolio case study remains unpublished pending validation.
 
-A four-layer, battery-powered cellular display design exploring ESP32-S3 control, modem power gating, an SPI ePaper interface, USB charging, and environmental sensing. This repository contains CAD source and a documented engineering review, not a tested product.
+This battery-powered design combines an ESP32-S3-WROOM-1-N8, SIM7600G-H LTE modem, GDEY029T94 2.9-inch monochrome ePaper panel interface, and SHT40 temperature/humidity sensor. It uses a protected 1S LiPo, switched modem/display supplies, native USB programming, and 1.8 V UART translation.
 
-![Original board layout visualization](pcb_3d_iso.png)
+## Revision B changes
 
-*The render depicts the original routed layout. It is not evidence of functional validation.*
+The initial review found an incorrect modem pinout and footprint, disconnected schematic pins, schematic/PCB disagreement, a SIM protection short, reversed LEDs, unsafe translator enable voltage, and an incompatible display power circuit. Revision B rebuilds the functional schematics and PCB from an explicit pin/net map. See [design report](DESIGN_REPORT.md) and [review results](review/README.md).
 
-## Review status — 2026-10-21
+To simplify the power architecture, **the battery is charged externally**. USB-C is data/programming only; it does not power or charge the board. The original MCP73831 charger and its unresolved operation under system load have been removed. Use only a protected 1S pack capable of at least 3 A, verify connector polarity, and disconnect the pack for charging.
 
-An independent source review found incorrect modem pin assignments, schematic connectivity failures, and inconsistent manufacturing documentation. Source metadata and documentation have been corrected; circuit and layout repair remain open.
+## Open in KiCad
 
-| Check | Current result |
-| --- | --- |
-| Schematic components exported to netlist | 100 / 100 (previous export contained only U2) |
-| PCB/BOM value consistency | Pass, 100 components |
-| KiCad 10.0.7 electrical check | 494 errors |
-| PCB copper DRC after zone refill | 0 violations, 0 unconnected items |
-| Schematic-to-PCB parity | 304 issues |
-| Prototype, RF, power and display measurements | Not provided / not validated |
+Use KiCad 10 with the standard libraries installed. Open `Low-Power_Cellular_ePaper_Device_ESP32-S3_SIM7600.kicad_pro`. The project includes its custom 135-pad modem symbol/footprint and six functional schematic sheets. The board is 100 × 80 mm with four copper layers.
 
-**A routed PCB is not necessarily a correct circuit.** See the [review and blocking defects](review/README.md) before using these files.
+- [Component pin/net map](design/rev-b-netmap.json)
+- [BOM](BOM.csv): engineering selections; procurement and assembly qualification remain open
+- [Bring-up and validation procedure](design/VALIDATION.md)
+- [Release status](review/release-status.json)
 
-## Files
+## CAD review artifacts
 
-- `Low-Power_Cellular_ePaper_Device_ESP32-S3_SIM7600.kicad_pro`: open this project in KiCad 10 with its standard libraries installed.
-- Matching `.kicad_sch` and `.kicad_pcb`: working source; electrical redesign is outstanding.
-- `Cellular.kicad_sym`, project `.pretty/`, and library tables: portable custom library definitions. The modem definition is retained for traceability and is **not qualified**.
-- [BOM.csv](BOM.csv): schematic-derived component values and footprints. Exact procurement MPNs remain unqualified; do not order from it as a released assembly BOM.
-- [DESIGN_REPORT.md](DESIGN_REPORT.md): corrected analysis and revision direction.
-- [review/](review/): current checks, source netlist, and reproduction instructions.
-- [fabrication/](fabrication/README.md): **unvalidated historical exports**, not a manufacturing release.
+[Revision B schematic PDF](review/rev-b/schematic.pdf) · [PCB top CAD view](review/rev-b/pcb-top.png). Native checks report 0 ERC errors (1 retained library warning), 0 PCB DRC violations, 0 open connections and 0 schematic/PCB parity issues. Fabrication requires the [recorded via-in-pad process and stackup qualification](design/FABRICATION_CONSTRAINTS.md).
 
-## Revision direction
+## Checks and release status
 
-Use one explicitly identified modem variant, **SIM7600G-H**, and the documented monochrome **Good Display GDEY029T94** 296 × 128 SPI panel as redesign targets. These choices have not yet been integrated or validated in the existing board. A fixed module revision, verified land pattern, and panel reference circuit must precede rerouting.
+Run `python3 scripts/check_sources.py` for source consistency and `python3 scripts/check_hardware.py` for the audited critical connections. Regenerate native ERC/DRC reports using the commands in [review/README.md](review/README.md).
 
-There is no firmware, fabricated prototype evidence, battery-life measurement, controlled-impedance certification, or production qualification in this repository. No solar charging circuit or regulated 4.2 V modem supply is implemented.
+`python3 scripts/check_release.py` deliberately fails until all manufacturing and physical-validation gates are closed. A clean ERC/DRC result alone does not establish RF performance, battery life, display compatibility, or successful hardware operation.
 
-## Checks
-
-```sh
-python3 scripts/check_sources.py
-python3 scripts/check_release.py
-```
-
-The first command checks metadata consistency. The release check intentionally fails while the documented electrical and hardware blockers remain open. Regenerate KiCad reports using [these commands](review/README.md#reproduce-the-checks); saved reports are snapshots, not automatic validation of future edits.
+Original manufacturing files, reports, and renders are retained only as explicitly marked historical material. Do not fabricate from those exports.
